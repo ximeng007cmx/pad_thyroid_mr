@@ -1,0 +1,55 @@
+name: zenodo-retrigger
+
+# 一次性工具工作流：用于重放 GitHub Release 的 `published` 事件。
+#
+# 背景：Zenodo 的 GitHub 集成只归档「仓库开关启用之后」发生的 release。
+# 若 release 早于开关，则静默失败。此处删除并重建 Release 对象以重放事件，
+# 从而触发 Zenodo 的 webhook 完成归档。
+#
+# 安全设计：
+#   - 仅在推送到本文件路径时评估；
+#   - 仅在 commit message 含 [zenodo-retrigger] 时真正执行（防止误触发）；
+#   - tag 固定指向 95ce80c（即原 v1.0.0 的提交），保证归档快照不变；
+#   - 执行完毕即可删除本文件（删除该文件的 push 不会再触发它）。
+
+on:
+  push:
+    paths:
+      - '.github/workflows/zenodo-retrigger.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  retrigger:
+    if: contains(github.event.head_commit.message, '[zenodo-retrigger]')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Show context
+        run: |
+          echo "repo        = $GH_REPO"
+          echo "commit      = ${{ github.sha }}"
+          echo "message     = ${{ github.event.head_commit.message }}"
+
+      - name: Delete existing release and tag (if present)
+        run: |
+          gh release view v1.0.0 >/dev/null 2>&1 && echo "found release v1.0.0" || echo "no release v1.0.0"
+          gh release delete v1.0.0 --yes --cleanup-tag || echo "nothing to delete"
+          echo "--- releases after delete ---"
+          gh release list || true
+
+      - name: Recreate tag + release on the original commit
+        run: |
+          gh release create v1.0.0 \
+            --target 95ce80c20268d7460ff2c634d76a1f162e73797c \
+            --title "v1.0.0" \
+            --notes "Analysis code for: Thyroid function and atherosclerotic vascular disease — Mendelian randomization estimates depend substantially on the outcome GWAS used. Version 1.0.0 (2026-10-08). MIT licensed. Raw GWAS summary statistics are third-party public data and are not redistributed here (see DATA_SOURCES.md)."
+          echo "--- releases after create ---"
+          gh release list
+
+      - name: Verify
+        run: |
+          gh release view v1.0.0 --json tagName,targetCommitish,publishedAt,isDraft,isPrerelease,url

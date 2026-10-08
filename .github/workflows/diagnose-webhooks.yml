@@ -1,0 +1,79 @@
+name: diagnose-webhooks
+
+# 一次性诊断工作流：读取本仓库的 webhook 清单与最近投递记录，
+# 判断 Zenodo 的 hook 是否安装、release 事件是否被投递、对端返回什么状态码。
+#
+# 结果写入 .github/webhook-diagnosis.md 并提交回 main，
+# 之后可通过 raw.githubusercontent.com 公开读取（无需任何凭据）。
+# 仅在 commit message 含 [diagnose-hooks] 时执行。
+
+on:
+  push:
+    paths:
+      - '.github/workflows/diagnose-webhooks.yml'
+
+permissions:
+  contents: write
+  administration: read
+
+jobs:
+  diagnose:
+    if: contains(github.event.head_commit.message, '[diagnose-hooks]')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: List repository webhooks
+        run: |
+          gh api "repos/$GH_REPO/hooks?per_page=100" > hooks.json 2>hooks.err || echo "[]" > hooks.json
+          echo "=== hooks ==="
+          jq -r 'if type=="array" then (.[] | "id=\(.id) active=\(.active) url=\(.config.url) events=\(.events|join(","))") else tostring end' hooks.json || cat hooks.err
+
+      - name: Dump recent deliveries for each hook
+        run: |
+          ids=$(jq -r 'if type=="array" then (.[].id) else empty end' hooks.json)
+          for id in $ids; do
+            echo "=== deliveries of hook $id ==="
+            gh api "repos/$GH_REPO/hooks/$id/deliveries?per_page=20" > "del_$id.json" 2>err_$id.txt || echo "[]" > "del_$id.json"
+            jq -r 'if type=="array" then (.[] | "  guid=\(.guid) event=\(.event) status=\(.status_code) at=\(.delivered_at) redelivery=\(.redelivery)") else tostring end' "del_$id.json" || cat err_$id.txt
+          done
+
+      - name: Save diagnosis into the repo
+        run: |
+          mkdir -p .github
+          {
+            echo "# GitHub webhook diagnosis"
+            echo
+            echo "- generated: $(date -u +%FT%TZ)"
+            echo "- repo: $GH_REPO"
+            echo
+            echo "## hooks"
+            echo '```json'
+            cat hooks.json
+            echo '```'
+            for f in del_*.json; do
+              [ -e "$f" ] || continue
+              echo
+              echo "## deliveries ($f)"
+              echo '```json'
+              cat "$f"
+              echo '```'
+            done
+            for f in err_*.txt hooks.err; do
+              [ -e "$f" ] || continue
+              echo
+              echo "## $f"
+              echo '```'
+              cat "$f"
+              echo '```'
+            done
+          } > .github/webhook-diagnosis.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/webhook-diagnosis.md
+          git diff --cached --quiet || git commit -m "chore: record webhook diagnosis [skip ci]"
+          git push
+          echo "pushed diagnosis"

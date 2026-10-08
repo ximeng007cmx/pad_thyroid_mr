@@ -1,0 +1,235 @@
+{
+  "seed": 20261007,
+  "nrep": 10000,
+  "pi_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "mc_pi_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "r_grid": [
+    1.0,
+    2.0,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "model": "plim beta_hat = beta*(F_w + pi*r)/(F_w + 1);  R(pi) = 1 + pi*r/F_w",
+  "configs": [
+    {
+      "key": "cad_nouk",
+      "label": "CAD (Nikpay 2015)",
+      "trait": "hypo",
+      "nsnp": 215,
+      "Fw": 106.96,
+      "F_mean": 108.9,
+      "F_min": 29.4,
+      "beta": 0.03076,
+      "se": 0.01211,
+      "overlap": false
+    },
+    {
+      "key": "cad_ukb",
+      "label": "CAD (UKB Mbatchou 2021)",
+      "trait": "hypo",
+      "nsnp": 222,
+      "Fw": 109.02,
+      "F_mean": 109.2,
+      "F_min": 29.4,
+      "beta": 0.054572,
+      "se": 0.011149,
+      "overlap": true
+    },
+    {
+      "key": "mvp_meta",
+      "label": "PAD (MVP trans-ancestry)",
+      "trait": "hypo",
+      "nsnp": 213,
+      "Fw": 112.44,
+      "F_mean": 111.1,
+      "F_min": 29.4,
+      "beta": 0.023652,
+      "se": 0.011499,
+      "overlap": false
+    },
+    {
+      "key": "sakaue",
+      "label": "PAD (Sakaue 2021, main)",
+      "trait": "hypo",
+      "nsnp": 221,
+      "Fw": 109.2,
+      "F_mean": 109.5,
+      "F_min": 29.4,
+      "beta": 0.04524,
+      "se": 0.018609,
+      "overlap": true
+    },
+    {
+      "key": "finngen",
+      "label": "PAD (FinnGen R13)",
+      "trait": "hypo",
+      "nsnp": 220,
+      "Fw": 109.5,
+      "F_mean": 109.8,
+      "F_min": 29.4,
+      "beta": 0.085674,
+      "se": 0.012438,
+      "overlap": true
+    },
+    {
+      "key": "cad_nouk",
+      "label": "CAD (Nikpay 2015)",
+      "trait": "tsh",
+      "nsnp": 252,
+      "Fw": 203.38,
+      "F_mean": 204.5,
+      "F_min": 29.3,
+      "beta": -0.013459,
+      "se": 0.019931,
+      "overlap": false
+    },
+    {
+      "key": "cad_ukb",
+      "label": "CAD (UKB Mbatchou 2021)",
+      "trait": "tsh",
+      "nsnp": 258,
+      "Fw": 201.65,
+      "F_mean": 201.6,
+      "F_min": 29.3,
+      "beta": 0.039364,
+      "se": 0.018672,
+      "overlap": true
+    },
+    {
+      "key": "cad_nouk",
+      "label": "CAD (Nikpay 2015)",
+      "trait": "ft4",
+      "nsnp": 65,
+      "Fw": 67.68,
+      "F_mean": 69.8,
+      "F_min": 30.1,
+      "beta": -0.012092,
+      "se": 0.043522,
+      "overlap": false
+    },
+    {
+      "key": "cad_ukb",
+      "label": "CAD (UKB Mbatchou 2021)",
+      "trait": "ft4",
+      "nsnp": 65,
+      "Fw": 68.28,
+      "F_mean": 69.8,
+      "F_min": 30.1,
+      "beta": -0.034521,
+      "se": 0.04127,
+      "overlap": true
+    }
+  ],
+  "observed_pairs": [
+    {
+      "disease": "CAD",
+      "pair": "CAD (Nikpay 2015) -> CAD (UKB Mbatchou 2021)",
+      "beta_base": 0.03076,
+      "beta_over": 0.054572,
+      "R_obs": 1.7741,
+      "Fw": 109.02,
+      "r_req_at_pi1": 84.4,
+      "pi_req_at_r5": 16.88,
+      "R_max_at_pi1_r5": 1.0459,
+      "R_max_at_pi1_r20": 1.1835,
+      "note": "CARDIoGRAMplusC4D → UKB（结局来源不同 + 暴露含 UKB）"
+    },
+    {
+      "disease": "PAD",
+      "pair": "PAD (MVP trans-ancestry) -> PAD (Sakaue 2021, main)",
+      "beta_base": 0.023652,
+      "beta_over": 0.04524,
+      "R_obs": 1.9127,
+      "Fw": 109.2,
+      "r_req_at_pi1": 99.7,
+      "pi_req_at_r5": 19.93,
+      "R_max_at_pi1_r5": 1.0458,
+      "R_max_at_pi1_r20": 1.1832,
+      "note": "MVP（无重叠）→ Sakaue 2021（暴露含 UKB，部分重叠）"
+    },
+    {
+      "disease": "PAD",
+      "pair": "PAD (MVP trans-ancestry) -> PAD (FinnGen R13)",
+      "beta_base": 0.023652,
+      "beta_over": 0.085674,
+      "R_obs": 3.6222,
+      "Fw": 109.5,
+      "r_req_at_pi1": 287.1,
+      "pi_req_at_r5": 57.42,
+      "R_max_at_pi1_r5": 1.0457,
+      "R_max_at_pi1_r20": 1.1827,
+      "note": "MVP（无重叠）→ FinnGen R13（暴露含 FinnGen DF10，重叠）"
+    }
+  ],
+  "mc_validation": {
+    "max_abs_dev": 0.004095,
+    "worst_case": {
+      "cfg": "sakaue",
+      "r": 20.0,
+      "pi": 1.0
+    },
+    "max_abs_dev_between_weightings": 0.0,
+    "tol": 0.01,
+    "passed": true
+  },
+  "tsh_cad_flip": {
+    "beta_base": -0.013458882807350223,
+    "se_base": 0.019931027272598278,
+    "beta_over": 0.039364473361787285,
+    "se_over": 0.018672234803016222,
+    "Fw": 201.6468872609266,
+    "shift_observed": 0.05282335616913751,
+    "beta_obs_needed_pi1": 10.69102981954363,
+    "beta_obs_assumed": 0.1,
+    "max_shift_pi1_beta_obs010": 0.0005598846562161175,
+    "observed_over_max_shift": 94.34685445058437
+  },
+  "headline": {
+    "Fw_hypo": 109.0,
+    "Fw_tsh": 201.6,
+    "Fw_ft4": 68.3,
+    "R_max_pi1_r5": 1.0459,
+    "R_max_pi1_r10": 1.0917,
+    "R_max_pi1_r20": 1.1835,
+    "r_needed_for_R177": 84.4,
+    "r_needed_for_R190": 99.7,
+    "r_needed_for_R362": 287.1,
+    "pi_needed_for_R177_at_r5": 16.88,
+    "pi_needed_for_R177_at_r10": 8.44,
+    "Fw_used_for_r_needed": {
+      "CAD_Nikpay_to_UKB": 109.02,
+      "PAD_MVP_to_Sakaue": 109.2,
+      "PAD_MVP_to_FinnGenR13": 109.5
+    },
+    "note_r_needed": "r_needed_* 按逐对 F_w 计算（pair-specific），与 observed_pairs 及论文 Table 3 一致；R_max_* 用甲减 CAD-UKB 层 F_w。"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "label": "PAD (FinnGen R13 I9_PAD)",
+  "trait": "hypo",
+  "nsnp": 7,
+  "n_case": 22244,
+  "n_eff_out": 409936.1371047316,
+  "overlap_note": "暴露队列含 FinnGen Freeze 10",
+  "ivw_fixed": {
+    "beta": 0.5219341844211582,
+    "se": 0.027616415034037847,
+    "p": 1.153164886115714e-79
+  },
+  "ivw_random": {
+    "beta": 0.1679930823081234,
+    "se": 0.22862816133831962,
+    "p": 0.4624690083818051,
+    "Q": 343.7749840829453,
+    "Q_df": 6,
+    "Q_pval": 3.3475138357408672e-71,
+    "tau2": 0.3574235179889483,
+    "nsnp": 7
+  },
+  "mr_egger": {
+    "beta": 0.4394142697423977,
+    "se": 0.22564499143094466,
+    "p": 0.051490401163908156,
+    "intercept": 0.020997359312824652,
+    "intercept_se": 0.021303275738809926,
+    "intercept_pval": 0.3243098339838629,
+    "Q": 287.84709484524285,
+    "Q_df": 5,
+    "Q_pval": 4.100884232209703e-60,
+    "nsnp": 7
+  },
+  "weighted_median": {
+    "beta": 0.14057374915395426,
+    "se": 0.4695679066453921,
+    "p": 0.7646590414057941
+  },
+  "weighted_mode": {
+    "beta": 1.0517049241745666,
+    "se": 0.4791434261590721,
+    "p": 0.028165827949145298
+  },
+  "presso_equiv": {
+    "global_Q": 343.7749840829453,
+    "global_Q_df": 6,
+    "global_Q_pval": 3.3475138357408672e-71,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 4,
+    "n_negative": 3,
+    "p": 1.0
+  },
+  "directionality": {
+    "R2_X": 0.01620579647943765,
+    "R2_Y": 0.0017070513410381927,
+    "nR2_X": 360.4817368886111,
+    "nR2_Y": 699.7820325846485,
+    "direction": "reverse?"
+  },
+  "harmonise": {
+    "total": 23,
+    "kept": 7,
+    "no_outcome": 16,
+    "allele_mismatch": 0,
+    "complement": 6,
+    "flipped": 4,
+    "eaf_missing": 0,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "palindromic_no_eaf": 0
+  },
+  "coverage": {
+    "n_tools": 23,
+    "n_outcome_hit": 7,
+    "hit_pct": 30.4,
+    "by_route": {
+      "rs_id": 7
+    },
+    "n_harmonised": 7
+  },
+  "outcome_label": "Hypothyroidism (Rand 2025)"
+}

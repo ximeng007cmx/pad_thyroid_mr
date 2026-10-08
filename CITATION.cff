@@ -1,18 +1,18 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite both the software and the associated manuscript."
-title: "Analysis code for: Thyroid function and atherosclerotic vascular disease — Mendelian randomization estimates depend substantially on the outcome GWAS used"
+title: "Analysis code for: Thyroid function and atherosclerotic vascular disease — Mendelian randomization estimates depend substantially on the outcome genome-wide association study used"
 type: software
-version: 1.0.0
-date-released: 2026-10-08
+version: 1.1.0
+date-released: 2026-10-09
 license: MIT
-doi: "10.5281/zenodo.23239485"
+doi: "10.5281/zenodo.23239484"          # concept DOI (all versions); the v1.1.0 version DOI is minted by Zenodo on release
 url: "https://github.com/ximeng007cmx/pad_thyroid_mr"
 repository-code: "https://github.com/ximeng007cmx/pad_thyroid_mr"
 abstract: >-
   Two-sample Mendelian randomization analysis pipeline for three thyroid function
   traits (hypothyroidism, TSH, free T4) against eight atherosclerotic vascular
   outcomes, including a paired design across independently sourced outcome GWAS,
-  independent replication, MVMR, reverse MR, colocalisation, power analysis and
+  independent replication, MVMR, reverse MR, colocalization, power analysis and
   the reverse application of the sample-overlap framework of Burgess et al. (2016).
 keywords:
   - Mendelian randomization
@@ -34,7 +34,7 @@ contact:
 
 preferred-citation:
   type: article
-  title: "Thyroid function and atherosclerotic vascular disease: Mendelian randomization estimates depend substantially on the outcome GWAS used — a paired two-sample Mendelian randomization study"
+  title: "Thyroid function and atherosclerotic vascular disease: Mendelian randomization estimates depend substantially on the outcome genome-wide association study used — a paired two-sample Mendelian randomization study"
   year: 2026
   journal: "BMC Cardiovascular Disorders"
   authors:

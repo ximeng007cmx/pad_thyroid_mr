@@ -1,0 +1,25 @@
+outcome	trait_cn	n_snp	n_eaf_available	n_eaf_NA	median_abs_gap	max_abs_gap	n_gap_gt_010	n_gap_gt_015	file
+主分析 PAD (Sakaue)	FT4	65	65	0	0.0204	0.1315	1	0	step3/results/harmonised_ft4.tsv
+主分析 PAD (Sakaue)	甲减	221	221	0	0.0293	0.1688	16	1	step3/results/harmonised_hypo.tsv
+主分析 PAD (Sakaue)	TSH	256	256	0	0.0277	0.1974	18	4	step3/results/harmonised_tsh.tsv
+CAD (Nikpay)	FT4	65	65	0	0.0090	0.0692	0	0	step4/results/harmonised_cad_nouk_ft4.tsv
+CAD (Nikpay)	甲减	215	215	0	0.0190	0.0980	0	0	step4/results/harmonised_cad_nouk_hypo.tsv
+CAD (Nikpay)	TSH	252	252	0	0.0198	0.1507	2	1	step4/results/harmonised_cad_nouk_tsh.tsv
+CAD (UKB)	FT4	65	0	65			0	0	step4/results/harmonised_cad_ukb_ft4.tsv
+CAD (UKB)	甲减	222	0	222			0	0	step4/results/harmonised_cad_ukb_hypo.tsv
+CAD (UKB)	TSH	258	0	258			0	0	step4/results/harmonised_cad_ukb_tsh.tsv
+FinnGen R13 PAD	FT4	60	60	0	0.0324	0.1273	1	0	step4/results/harmonised_finngen_ft4.tsv
+FinnGen R13 PAD	甲减	220	220	0	0.0174	0.0896	0	0	step4/results/harmonised_finngen_hypo.tsv
+FinnGen R13 PAD	TSH	248	248	0	0.0260	0.1542	9	1	step4/results/harmonised_finngen_tsh.tsv
+IS-LAA	FT4	65	65	0	0.0100	0.0842	0	0	step4/results/harmonised_is_laa_ft4.tsv
+IS-LAA	甲减	216	216	0	0.0233	0.1974	18	6	step4/results/harmonised_is_laa_hypo.tsv
+IS-LAA	TSH	251	251	0	0.0229	0.1569	12	1	step4/results/harmonised_is_laa_tsh.tsv
+IS-SV	FT4	60	60	0	0.0172	0.1154	3	0	step4/results/harmonised_is_sv_ft4.tsv
+IS-SV	甲减	195	195	0	0.0335	0.1993	26	9	step4/results/harmonised_is_sv_hypo.tsv
+IS-SV	TSH	220	220	0	0.0424	0.1933	34	6	step4/results/harmonised_is_sv_tsh.tsv
+MI (UKB)	FT4	65	65	0	0.0086	0.0429	0	0	step4/results/harmonised_mi_ukb_ft4.tsv
+MI (UKB)	甲减	221	221	0	0.0153	0.0672	0	0	step4/results/harmonised_mi_ukb_hypo.tsv
+MI (UKB)	TSH	256	256	0	0.0069	0.0769	0	0	step4/results/harmonised_mi_ukb_tsh.tsv
+MVP PAD	FT4	63	63	0	0.0107	0.1106	1	0	step4/results/harmonised_mvp_meta_ft4.tsv
+MVP PAD	甲减	213	213	0	0.0240	0.1855	5	2	step4/results/harmonised_mvp_meta_hypo.tsv
+MVP PAD	TSH	251	251	0	0.0200	0.1754	6	1	step4/results/harmonised_mvp_meta_tsh.tsv

@@ -124,7 +124,7 @@ VERDICT = {
 }
 TRI = {
     "hypo": ("方向跨谱一致（5/5 β&gt;0），但无一通过随机效应＋加权中位数双重稳健检验；"
-             "两套结局库间差异达 1.77×–1.89×（重叠量级不足以解释，见 §3）→ 信号存疑", "warn"),
+             "两套结局库间差异达 1.77×–1.91×（重叠量级不足以解释，见 §3）→ 信号存疑", "warn"),
     "tsh": ("三个无重叠结局一致阴性 → 全血管谱上最硬的阴性结论", "ok"),
     "ft4": ("全谱无稳健证据；IS-LAA 与 PAD-MVP 层同现弱正向，提示可能有极微弱信号但不可检验", "warn"),
 }
@@ -219,7 +219,7 @@ def build_html():
     o.append(MI_NOTE_HTML)
 
     # 3 结局库配对对比（含重叠解释力上限）
-    o.append('<h2>3 · 「无重叠 vs 有重叠」结局库配对对比 —— 含重叠解释力上限</h2>')
+    o.append('<h2>3 · 跨结局库配对对比（含重叠解释力上限）</h2>')
     o.append('<table><tr><th class="l">疾病</th><th class="l">数据集对</th><th class="l">重叠</th>'
              '<th>甲减 β（比值）</th><th>甲减 p</th><th>TSH β</th><th>TSH p</th><th class="l">解读</th></tr>')
     hm, hf = pad_main["hypo"]["ivw_fixed"]["beta"], pad_fin["hypo"]["ivw_fixed"]["beta"]
@@ -228,7 +228,7 @@ def build_html():
     tn_, tu_ = R["cad_nouk"]["tsh"]["ivw_fixed"]["beta"], R["cad_ukb"]["tsh"]["ivw_fixed"]["beta"]
     o.append('<tr><td class="l" rowspan="2"><b>PAD</b></td>'
              '<td class="l">主分析（Sakaue 2021）</td><td class="l">部分重叠*</td><td>%+.4f</td><td>%s</td><td>%+.4f</td><td>%s</td>'
-             '<td class="l" rowspan="2">两库甲减 β 相差 <b>%.2f 倍</b>。但按 Step9 模拟，重叠在该工具强度下'
+             '<td class="l" rowspan="2">两库甲减 β 相差 <b>%.2f 倍</b>（主分析↔R13，<b>非独立样本</b>，仅作次级参照）；零重叠锚（MVP↔Sakaue）的配对 β 比为 <b>1.91</b>。但按 Step9 模拟，重叠在该工具强度下'
              '最多只能造成 <b>+18.4%%</b> 的改变，<b>远不足以解释</b>；差异应归因于两套结局 GWAS 的'
              '病例定义/构成/人群（含 MVP 为跨族裔 meta）。'
              '*主分析队列亦含 UKB；且其 EUR 成分 483,078 = UKB 350,366 + FinnGen R3 132,712（2026-10-08 已核实），FinnGen R3 ⊂ R13 → 两层并非独立样本，比值作参考。</td></tr>' % (
@@ -245,7 +245,7 @@ def build_html():
         cu_, fp(R["cad_ukb"]["hypo"]["ivw_fixed"]["p"]), tu_, fp(R["cad_ukb"]["tsh"]["ivw_fixed"]["p"])))
     o.append('</table>')
     o.append('<div class="box"><b>要点（2026-10-07 依 Step9 模拟修正）</b>：配对设计确实显示同一暴露在两套结局库上'
-             '给出 <b>1.77×–1.89×</b> 的 β 差异、且 TSH→CAD 符号翻转；但<b>样本重叠不是原因</b>——'
+             '给出 <b>1.77×–1.91×</b> 的 β 差异、且 TSH→CAD 符号翻转；但<b>样本重叠不是原因</b>——'
              '本项目工具强度极高（甲减 F_w≈109、TSH≈202；最低单 SNP F≈29），在完全重叠（π=1）时重叠能造成的'
              '改变上限只有 <b>+4.6%（r=5）～+18.4%（r=20）</b>；要把 1.77× 归因于重叠，需要观察性关联达到'
              '因果效应的 <b>84 倍</b>（3.62× 则需 287 倍），且所需的 π 达 <b>17 倍于</b>整个结局样本。'
@@ -281,7 +281,7 @@ def build_html():
              'IS-LAA p=0.185、IS-SV p=0.605）一致阴性；加上 PAD 三层 755 次 LOO 全不显著，'
              '<b>这是跨血管谱最硬的一条</b>。</li>'
              '<li><b>配对设计给出了「结局库间差异」的量化与「重叠解释力」的上限</b>（2026-10-07 修正）：'
-             '同一暴露在两套结局库间 β 相差 1.77×（CAD）/1.89×（PAD）；Step9 模拟（解析解 + 10,000 次 MC）'
+             '同一暴露在两套结局库间 β 相差 1.77×（CAD）/1.91×（PAD）；Step9 模拟（解析解 + 10,000 次 MC）'
              '给出重叠的解释力上限 —— 完全重叠时最多 +4.6%（r=5）/ +18.4%（r=20），'
              '要把 1.77× 归因于重叠需观察性关联达因果效应的 84 倍。'
              '<b>结论：差异真实且显著，但不由样本重叠解释</b>，而指向结局 GWAS 之间的不可互换性。可作为方法学论文的核心证据。</li>'
@@ -358,7 +358,7 @@ def build_md():
     o.append("")
     o.append(MI_NOTE_MD)
     o.append("")
-    o.append("## 3 「无重叠 vs 有重叠」结局库配对对比（含重叠解释力上限）")
+    o.append("## 3 跨结局库配对对比（含重叠解释力上限）")
     o.append("")
     o.append("| 疾病 | 数据集 | 重叠 | 甲减 β | 甲减 p | TSH β | TSH p |")
     o.append("|---|---|---|---|---|---|---|")
@@ -368,7 +368,7 @@ def build_md():
     tn_ = R["cad_nouk"]["tsh"]["ivw_fixed"]["beta"]; tu_ = R["cad_ukb"]["tsh"]["ivw_fixed"]["beta"]
     o.append("| PAD | 主分析（Sakaue 2021）* | 部分 | %+.4f | %s | %+.4f | %s |" % (
         hm, fp(pad_main["hypo"]["ivw_fixed"]["p"]), tm, fp(pad_main["tsh"]["ivw_fixed"]["p"])))
-    o.append("| PAD | FinnGen R13 | **有** | **%+.4f（×%.2f）** | %s | %+.4f | %s |" % (
+    o.append("| PAD | FinnGen R13 | **有** | **%+.4f（×%.2f，vs 主分析·非独立）** | %s | %+.4f | %s |" % (
         hf, hf / hm, fp(pad_fin["hypo"]["ivw_fixed"]["p"]), tf, fp(pad_fin["tsh"]["ivw_fixed"]["p"])))
     o.append("| CAD | Nikpay 2015 | **无** | %+.4f | %s | %+.4f | %s |" % (
         cn_, fp(R["cad_nouk"]["hypo"]["ivw_fixed"]["p"]), tn_, fp(R["cad_nouk"]["tsh"]["ivw_fixed"]["p"])))
@@ -377,12 +377,13 @@ def build_md():
         fp(R["cad_ukb"]["tsh"]["ivw_fixed"]["p"])))
     o.append("")
     o.append("> **要点（2026-10-07 依 Step9 模拟修正）**：配对设计确实显示同一暴露在两套结局库上给出"
-             "**1.77×（CAD）/ 1.89×（PAD）** 的 β 差异、且 TSH→CAD 符号翻转（%+.4f, p=%s → %+.4f, p=%s）；"
+             "**1.77×（CAD）/ 1.91×（PAD）** 的 β 差异、且 TSH→CAD 符号翻转（%+.4f, p=%s → %+.4f, p=%s）；"
              "但**样本重叠不是原因** —— 本项目工具强度极高（甲减 F_w≈109、TSH≈202；最低单 SNP F≈29），"
              "在完全重叠（π=1）下重叠能造成的改变上限只有 **+4.6%%（r=5）～+18.4%%（r=20）**；"
              "要把 1.77× 归因于重叠需观察性关联达因果效应的 **84 倍**（3.62× 需 287 倍），"
              "所需 π 达 **17 倍于**整个结局样本。差异应归因于**不同结局 GWAS 本身不可互换**"
              "（病例定义、病例/对照构成、人群、meta 设计）。"
+             "**口径**：头条配对数字以零重叠锚（MVP↔Sakaue = **1.91×**）为准；本表 PAD 行的 ×1.89 系主分析↔FinnGen R13（R3 ⊂ R13，非独立样本），仅作次级参照。"
              "核验：`Step9_重叠偏倚模拟.md`、`step9/results/overlap_sim_*.tsv`。"
              "*主分析队列亦含 UKB；且其 EUR 成分 483,078 = UKB 350,366 + FinnGen R3 132,712（2026-10-08 已核实），FinnGen R3 ⊂ R13 → 两层并非独立样本，比值作参考。"
              % (tn_, fp(R["cad_nouk"]["tsh"]["ivw_fixed"]["p"]), tu_, fp(R["cad_ukb"]["tsh"]["ivw_fixed"]["p"])))
@@ -393,7 +394,7 @@ def build_md():
     o.append("")
     o.append("1. **遗传预测 TSH 与动脉粥样硬化性血管事件无因果关联**：三个无重叠结局一致阴性"
              "（CAD-Nikpay p=0.50、IS-LAA p=0.185、IS-SV p=0.605）；加上 PAD 三层 755 次 LOO 全不显著 → 跨血管谱最硬的一条。")
-    o.append("2. **结局库间差异的量化 + 重叠解释力的上限**：同一暴露在两套结局库间 β 相差 1.77×（CAD）/ 1.89×（PAD）；"
+    o.append("2. **结局库间差异的量化 + 重叠解释力的上限**：同一暴露在两套结局库间 β 相差 1.77×（CAD）/ 1.91×（PAD）；"
              "Step9 模拟给出重叠的解释力上限（π=1 时 ≤ +4.6%（r=5）～+18.4%（r=20））。"
              "**差异真实，但不由样本重叠解释**——指向结局 GWAS 之间的不可互换性。")
     o.append("3. **FT4 全谱无稳健因果证据**。")

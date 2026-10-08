@@ -1,0 +1,74 @@
+{
+  "label": "PAD (Sakaue 2021; GCST90018890)",
+  "trait": "hypo",
+  "nsnp": 1,
+  "n_case": 7114,
+  "n_eff_out": 409936.1371047316,
+  "overlap_note": "暴露队列含 UKB",
+  "ivw_fixed": {
+    "beta": 0.044765840220385676,
+    "se": 0.03581267217630854,
+    "p": 0.21129954733371054
+  },
+  "ivw_random": {
+    "beta": 0.044765840220385676,
+    "se": 0.03581267217630854,
+    "p": 0.21129954733371054,
+    "Q": 0.0,
+    "Q_df": 0,
+    "Q_pval": 1.0,
+    "tau2": 0.0,
+    "nsnp": 1
+  },
+  "mr_egger": null,
+  "weighted_median": {
+    "beta": null,
+    "se": null,
+    "p": null
+  },
+  "weighted_mode": {
+    "beta": null,
+    "se": null,
+    "p": null
+  },
+  "presso_equiv": {
+    "global_Q": 0.0,
+    "global_Q_df": 0,
+    "global_Q_pval": 1.0,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 1,
+    "n_negative": 0,
+    "p": 1.0
+  },
+  "directionality": {
+    "R2_X": 0.013173094786907116,
+    "R2_Y": 3.8115547838283407e-06,
+    "nR2_X": 93.71339631405722,
+    "nR2_Y": 1.56249404444565,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 5,
+    "kept": 1,
+    "no_outcome": 4,
+    "allele_mismatch": 0,
+    "complement": 0,
+    "flipped": 0,
+    "eaf_missing": 0,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "palindromic_no_eaf": 0
+  },
+  "coverage": {
+    "n_tools": 5,
+    "n_outcome_hit": 1,
+    "hit_pct": 20.0,
+    "by_route": {
+      "rs_id": 1
+    },
+    "n_harmonised": 1
+  },
+  "outcome_label": "Hypothyroidism (Rand 2025)"
+}

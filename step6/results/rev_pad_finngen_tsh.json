@@ -1,0 +1,85 @@
+{
+  "label": "PAD (FinnGen R13 I9_PAD)",
+  "trait": "tsh",
+  "nsnp": 7,
+  "n_case": 22244,
+  "n_eff_out": 482873.0,
+  "overlap_note": "暴露队列含 FinnGen Freeze 10",
+  "ivw_fixed": {
+    "beta": 0.09620759223819957,
+    "se": 0.012047864455632547,
+    "p": 1.4001314744985594e-15
+  },
+  "ivw_random": {
+    "beta": 0.05222530843877674,
+    "se": 0.03640333281006218,
+    "p": 0.15139259952501338,
+    "Q": 43.374536639245484,
+    "Q_df": 6,
+    "Q_pval": 9.833687517413109e-08,
+    "tau2": 0.0074435576728135305,
+    "nsnp": 7
+  },
+  "mr_egger": {
+    "beta": 0.08218782473710609,
+    "se": 0.031890997592164974,
+    "p": 0.009961925000871565,
+    "intercept": 0.004006202200393471,
+    "intercept_se": 0.0029110912806077365,
+    "intercept_pval": 0.16876414727525843,
+    "Q": 31.458693824706923,
+    "Q_df": 5,
+    "Q_pval": 7.602994606928798e-06,
+    "nsnp": 7
+  },
+  "weighted_median": {
+    "beta": 0.08702184471435265,
+    "se": 0.05687999156209885,
+    "p": 0.12603649726520494
+  },
+  "weighted_mode": {
+    "beta": 0.16940338313700384,
+    "se": 0.05996305963899142,
+    "p": 0.004726157335249627
+  },
+  "presso_equiv": {
+    "global_Q": 43.374536639245484,
+    "global_Q_df": 6,
+    "global_Q_pval": 9.833687517413109e-08,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 5,
+    "n_negative": 2,
+    "p": 0.453125
+  },
+  "directionality": {
+    "R2_X": 0.01620579647943765,
+    "R2_Y": 0.00022184719267873655,
+    "nR2_X": 360.4817368886111,
+    "nR2_Y": 107.12401947035956,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 23,
+    "kept": 7,
+    "no_outcome": 16,
+    "allele_mismatch": 0,
+    "complement": 6,
+    "flipped": 4,
+    "eaf_missing": 0,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "palindromic_no_eaf": 0
+  },
+  "coverage": {
+    "n_tools": 23,
+    "n_outcome_hit": 7,
+    "hit_pct": 30.4,
+    "by_route": {
+      "rs_id": 7
+    },
+    "n_harmonised": 7
+  },
+  "outcome_label": "TSH (Rand 2025)"
+}

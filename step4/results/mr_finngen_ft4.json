@@ -1,0 +1,73 @@
+{
+  "trait": "ft4",
+  "trait_cn": "FT4",
+  "nsnp": 60,
+  "overlap_status": "VALID",
+  "outcome": "FinnGen R13 I9_PAD (22,244 cases / 460,490 controls)",
+  "harmonise": {
+    "total": 65,
+    "kept": 60,
+    "no_outcome": 5,
+    "allele_mismatch": 0,
+    "complement": 49,
+    "flipped": 24,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "eaf_gap": 0
+  },
+  "ivw_fixed": {
+    "beta": -0.0632151331642539,
+    "se": 0.05030775700108748,
+    "p": 0.208909996137322
+  },
+  "ivw_random": {
+    "beta": -0.08044858159742355,
+    "se": 0.07124126829647678,
+    "p": 0.2587960606842797,
+    "Q": 102.48866260890082,
+    "Q_df": 59,
+    "Q_pval": 0.0003882463785045029,
+    "tau2": 0.11449731785769839,
+    "nsnp": 60
+  },
+  "mr_egger": {
+    "beta": -0.07841981365868397,
+    "se": 0.06630344287609749,
+    "p": 0.23691173007032415,
+    "intercept": -0.0030610063571298403,
+    "intercept_se": 0.0019958444528496953,
+    "intercept_pval": 0.1251059747448402,
+    "Q": 98.49420544679025,
+    "Q_df": 58,
+    "Q_pval": 0.0007206207948263039,
+    "nsnp": 60
+  },
+  "weighted_median": {
+    "beta": 0.030101714285714284,
+    "se": 0.10833504947211132,
+    "p": 0.7811216910828371
+  },
+  "weighted_mode": {
+    "beta": 0.023558501487436878,
+    "se": 0.12251897784074106,
+    "p": 0.8475193520763143
+  },
+  "presso_equiv": {
+    "global_Q": 102.48866260890082,
+    "global_Q_df": 59,
+    "global_Q_pval": 0.0003882463785045029,
+    "distortion": null
+  },
+  "directionality": {
+    "R2_X": 0.020823291879599925,
+    "R2_Y": 0.0012260460469432205,
+    "nR2_X": 3986.598407057526,
+    "nR2_Y": 104.06195350504186,
+    "direction": "forward (X->Y)"
+  },
+  "sign_test": {
+    "n_positive": 29,
+    "n_negative": 31,
+    "p_binomial_two_sided": 0.8974218269914305
+  }
+}

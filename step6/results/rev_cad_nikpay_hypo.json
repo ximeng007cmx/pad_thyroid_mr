@@ -1,0 +1,86 @@
+{
+  "label": "CAD (Nikpay 2015; GCST003116)",
+  "trait": "hypo",
+  "nsnp": 11,
+  "n_case": 60801,
+  "n_eff_out": 409936.1371047316,
+  "overlap_note": "与暴露无样本重叠",
+  "ivw_fixed": {
+    "beta": -0.007368539898230269,
+    "se": 0.020289457801168025,
+    "p": 0.7164772518536542
+  },
+  "ivw_random": {
+    "beta": 0.013732610763934594,
+    "se": 0.05074621073560103,
+    "p": 0.7866882954930698,
+    "Q": 49.390670501335926,
+    "Q_df": 10,
+    "Q_pval": 3.4538118488909204e-07,
+    "tau2": 0.019988972772449848,
+    "nsnp": 11
+  },
+  "mr_egger": {
+    "beta": -0.07411810859886858,
+    "se": 0.04929043497529566,
+    "p": 0.13265820316762775,
+    "intercept": 0.011366375155103858,
+    "intercept_se": 0.005238348351306569,
+    "intercept_pval": 0.03001900703600089,
+    "Q": 32.42700885477644,
+    "Q_df": 9,
+    "Q_pval": 0.00016796042472791515,
+    "nsnp": 11
+  },
+  "weighted_median": {
+    "beta": -0.054320192268215425,
+    "se": 0.04869396872210365,
+    "p": 0.26461801082691294
+  },
+  "weighted_mode": {
+    "beta": -0.021361268166876002,
+    "se": 0.048987712679921164,
+    "p": 0.6627978455789929
+  },
+  "presso_equiv": {
+    "global_Q": 49.390670501335926,
+    "global_Q_df": 10,
+    "global_Q_pval": 3.4538118488909204e-07,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 5,
+    "n_negative": 6,
+    "p": 1.0
+  },
+  "directionality": {
+    "R2_X": 0.010479576769385645,
+    "R2_Y": 0.00012080197904815933,
+    "nR2_X": 637.1687471554166,
+    "nR2_Y": 49.521096645609155,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 41,
+    "kept": 11,
+    "no_outcome": 30,
+    "allele_mismatch": 0,
+    "complement": 6,
+    "flipped": 4,
+    "eaf_missing": 0,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "palindromic_no_eaf": 0
+  },
+  "coverage": {
+    "n_tools": 41,
+    "n_outcome_hit": 11,
+    "hit_pct": 26.8,
+    "by_route": {
+      "rs_id": 10,
+      "rsid": 1
+    },
+    "n_harmonised": 11
+  },
+  "outcome_label": "Hypothyroidism (Rand 2025)"
+}

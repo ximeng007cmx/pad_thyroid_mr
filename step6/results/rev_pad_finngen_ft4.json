@@ -1,0 +1,85 @@
+{
+  "label": "PAD (FinnGen R13 I9_PAD)",
+  "trait": "ft4",
+  "nsnp": 7,
+  "n_case": 22244,
+  "n_eff_out": 191449.0,
+  "overlap_note": "暴露队列含 FinnGen Freeze 10",
+  "ivw_fixed": {
+    "beta": -0.0075625967507767355,
+    "se": 0.018543461112487367,
+    "p": 0.6833978137352767
+  },
+  "ivw_random": {
+    "beta": -0.01537227454716886,
+    "se": 0.026469816454482188,
+    "p": 0.5614107751041504,
+    "Q": 9.701198871237306,
+    "Q_df": 6,
+    "Q_pval": 0.13781233289349676,
+    "tau2": 0.0017449171967064705,
+    "nsnp": 7
+  },
+  "mr_egger": {
+    "beta": -0.012169316466866083,
+    "se": 0.02619205772570965,
+    "p": 0.6422046298005135,
+    "intercept": 0.001392270161450483,
+    "intercept_se": 0.0023750626669386756,
+    "intercept_pval": 0.5577387378857845,
+    "Q": 9.07734117184012,
+    "Q_df": 5,
+    "Q_pval": 0.1060187595961195,
+    "nsnp": 7
+  },
+  "weighted_median": {
+    "beta": 0.02508558611734152,
+    "se": 0.03818067302787051,
+    "p": 0.5111660302710179
+  },
+  "weighted_mode": {
+    "beta": 0.0233962567371932,
+    "se": 0.0418519675097636,
+    "p": 0.576145300949134
+  },
+  "presso_equiv": {
+    "global_Q": 9.701198871237306,
+    "global_Q_df": 6,
+    "global_Q_pval": 0.13781233289349676,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 2,
+    "n_negative": 5,
+    "p": 0.453125
+  },
+  "directionality": {
+    "R2_X": 0.01620579647943765,
+    "R2_Y": 5.1540511598822115e-05,
+    "nR2_X": 360.4817368886111,
+    "nR2_Y": 9.867379405082895,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 23,
+    "kept": 7,
+    "no_outcome": 16,
+    "allele_mismatch": 0,
+    "complement": 6,
+    "flipped": 4,
+    "eaf_missing": 0,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "palindromic_no_eaf": 0
+  },
+  "coverage": {
+    "n_tools": 23,
+    "n_outcome_hit": 7,
+    "hit_pct": 30.4,
+    "by_route": {
+      "rs_id": 7
+    },
+    "n_harmonised": 7
+  },
+  "outcome_label": "FT4 (Rand 2025)"
+}

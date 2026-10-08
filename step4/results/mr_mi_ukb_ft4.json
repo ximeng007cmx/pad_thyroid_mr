@@ -1,0 +1,75 @@
+{
+  "label": "MI (Donertas2021, UKB; GCST90038610)",
+  "trait": "ft4",
+  "nsnp": 65,
+  "n_case": 11081,
+  "n_eff_out": 43310.47075720494,
+  "overlap_note": "OVERLAP_UKB(暴露GWAS含UKB)",
+  "ivw_fixed": {
+    "beta": -0.002371626882301931,
+    "se": 0.00137486824591494,
+    "p": 0.08453020446897758
+  },
+  "ivw_random": {
+    "beta": -0.0019660345069967508,
+    "se": 0.0016618166940414677,
+    "p": 0.23678402202759394,
+    "Q": 82.05513005186894,
+    "Q_df": 64,
+    "Q_pval": 0.0637307610404877,
+    "tau2": 3.536490485041345e-05,
+    "nsnp": 65
+  },
+  "mr_egger": {
+    "beta": -0.002493511644238519,
+    "se": 0.001580746510245396,
+    "p": 0.11469739142470314,
+    "intercept": -2.742777451708366e-05,
+    "intercept_se": 4.962997713176921e-05,
+    "intercept_pval": 0.580506303532502,
+    "Q": 81.65925525265527,
+    "Q_df": 63,
+    "Q_pval": 0.0570696438176315,
+    "nsnp": 65
+  },
+  "weighted_median": {
+    "beta": -0.001803755942947702,
+    "se": 0.00261664118786385,
+    "p": 0.4906092098418745
+  },
+  "weighted_mode": {
+    "beta": -0.004181460255723822,
+    "se": 0.0032674963492674695,
+    "p": 0.2006458001431487
+  },
+  "presso_equiv": {
+    "global_Q": 82.05513005186894,
+    "global_Q_df": 64,
+    "global_Q_pval": 0.0637307610404877,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 29,
+    "n_negative": 36,
+    "p": 0.4570207854105899
+  },
+  "directionality": {
+    "R2_X": 0.02367454182887081,
+    "R2_Y": 0.0019631292043595953,
+    "nR2_X": 4532.467358595488,
+    "nR2_Y": 85.02404999803124,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 65,
+    "kept": 65,
+    "no_outcome": 0,
+    "allele_mismatch": 0,
+    "complement": 53,
+    "flipped": 27,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "eaf_missing": 0,
+    "palindromic_no_eaf": 0
+  }
+}

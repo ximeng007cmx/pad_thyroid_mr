@@ -1,6 +1,6 @@
 # Data sources
 
-All datasets used in this study are **publicly available summary statistics**. No individual-level data were analysed. Raw files are not redistributed in this repository (≈5.5 GB); every accession and download location is listed below.
+All datasets used in this study are **publicly available summary statistics**. No individual-level data were analyzed. Raw files are not redistributed in this repository (≈5.5 GB); every accession and download location is listed below.
 
 **All PMIDs and DOIs in this file were verified against Europe PMC on 2026-10-08.**
 
@@ -52,8 +52,8 @@ Single publication providing all three trait GWAS, so the three exposures share 
 | CAD (no UKB) | **GCST003116** | — | Nikpay et al. *Nat Genet* 2015 | **26343387** | 10.1038/ng.3396 |
 | CAD (UKB) | **GCST90013864** | 29,339 / 322,724 | Mbatchou et al. *Nat Genet* 2021 | **34017140** | 10.1038/s41588-021-00870-7 |
 | Myocardial infarction | **GCST90038610** | 11,081 / 473,517 | Dönertaş et al. *Nat Aging* 2021 | **33959723** | 10.1038/s43587-021-00051-5 |
-| Ischaemic stroke — large artery | **GCST005840** | 4,373 / 406,111 | MEGASTROKE (Malik et al. *Nat Genet* 2018) | **29531354** | 10.1038/s41588-018-0058-3 |
-| Ischaemic stroke — small vessel | **GCST005841** | 5,386 / 192,662 | MEGASTROKE (Malik et al. *Nat Genet* 2018) | **29531354** | 10.1038/s41588-018-0058-3 |
+| Ischemic stroke — large artery | **GCST005840** | 4,373 / 406,111 | MEGASTROKE (Malik et al. *Nat Genet* 2018) | **29531354** | 10.1038/s41588-018-0058-3 |
+| Ischemic stroke — small vessel | **GCST005841** | 5,386 / 192,662 | MEGASTROKE (Malik et al. *Nat Genet* 2018) | **29531354** | 10.1038/s41588-018-0058-3 |
 
 > ⚠ **Myocardial infarction (GCST90038610) is on a linear-probability scale**, not a log-odds scale (median instrument se ≈ 0.030× the reference median). Its β/SE must not be interpreted as a log-OR; z and p are unaffected. Screening code: `step9/scripts/s9_power.py` (see `step9/results/scale_check.tsv`).
 
@@ -61,7 +61,7 @@ Single publication providing all three trait GWAS, so the three exposures share 
 
 ## 4. Reference panel
 
-- **1000 Genomes Phase 3, GRCh38, European ancestry** — used for LD clumping and harmonisation
+- **1000 Genomes Phase 3, GRCh38, European ancestry** — used for LD clumping and harmonization
 - Zenodo DOI: **10.5281/zenodo.19068199**
 - Local path: `ref/1kg_eur_hg38/` (~1.9 GB, not redistributed)
 

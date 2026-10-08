@@ -1,0 +1,4 @@
+trait	trait_cn	scanned	p_lt_5e8	biallelic_snp	excluded_non_snp	cand_rows	cand_unique_pos	cand_dup_by_pos	mapped_to_panel	route_rs_id	route_rsid	route_pos_fallback	excluded_unmapped	excluded_unmapped_nomatch	excluded_unmapped_dup	after_clumping	excluded_ld	after_harmonise	excluded_harmonise	excl_harmonise_eaf	excl_harmonise_missing_outcome
+hypo	甲减 (hypothyroidism)	7344354	16247	12782	3465	12782	12765	17	11070	10636	116	318	1712	1679	33	222	10848	221	1	1	0
+tsh	TSH	6151997	17246	13731	3515	13731	13688	43	12007	11657	96	254	1724	1671	53	258	11749	256	2	0	2
+ft4	FT4	5901316	1690	1474	216	1474	1473	1	1445	1436	3	6	29	28	1	65	1380	65	0	0	0

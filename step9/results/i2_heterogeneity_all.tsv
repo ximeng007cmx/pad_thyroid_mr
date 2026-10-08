@@ -1,0 +1,25 @@
+outcome_cn	outcome_en	trait_cn	nsnp	Q	Q_df	Q_pval	tau2	I2_pct	Fw	file
+主分析 PAD (Sakaue)	PAD (Sakaue 2021)	甲减	221	354.4418	220	0.0000	0.0474	37.9306	116.2014	step3/results/mr_main_hypo.json
+主分析 PAD (Sakaue)	PAD (Sakaue 2021)	TSH	256	383.0421	255	0.0000	0.1256	33.4277	225.8336	step3/results/mr_main_tsh.json
+主分析 PAD (Sakaue)	PAD (Sakaue 2021)	FT4	65	73.8729	64	0.1868	0.0518	13.3647	71.3965	step3/results/mr_main_ft4.json
+FinnGen R13 I9_PAD	PAD (FinnGen R13)	甲减	220	501.2514	219	0.0000	0.0445	56.3093		step4/results/mr_finngen_hypo.json
+FinnGen R13 I9_PAD	PAD (FinnGen R13)	TSH	248	524.2318	247	0.0000	0.1298	52.8834		step4/results/mr_finngen_r13_tsh.json
+FinnGen R13 I9_PAD	PAD (FinnGen R13)	FT4	60	102.4887	59	0.0004	0.1145	42.4327		step4/results/mr_finngen_ft4.json
+MVP te.PAD (无重叠)	PAD (MVP)	甲减	213	378.9074	212	0.0000	0.0225	44.0497		step4/results/mr_mvp_meta_hypo.json
+MVP te.PAD (无重叠)	PAD (MVP)	TSH	251	398.7035	250	0.0000	0.0568	37.2968		step4/results/mr_mvp_meta_tsh.json
+MVP te.PAD (无重叠)	PAD (MVP)	FT4	63	128.0559	62	0.0000	0.1280	51.5837		step4/results/mr_mvp_meta_ft4.json
+CAD (UKB, Aragam)	CAD (UKB)	甲减	222	348.4676	221	0.0000	0.0161	36.5795		step4/results/mr_cad_ukb_hypo.json
+CAD (UKB, Aragam)	CAD (UKB)	TSH	258	626.2452	257	0.0000	0.1315	58.9618		step4/results/mr_cad_ukb_tsh.json
+CAD (UKB, Aragam)	CAD (UKB)	FT4	65	92.6693	64	0.0111	0.0506	30.9372		step4/results/mr_cad_ukb_ft4.json
+CAD (Nikpay, 无UKB)	CAD (Nikpay)	甲减	215	381.0511	214	0.0000	0.0249	43.8395		step4/results/mr_cad_nouk_hypo.json
+CAD (Nikpay, 无UKB)	CAD (Nikpay)	TSH	252	500.8294	251	0.0000	0.1015	49.8831		step4/results/mr_cad_nouk_tsh.json
+CAD (Nikpay, 无UKB)	CAD (Nikpay)	FT4	65	112.2975	64	0.0002	0.0949	43.0085		step4/results/mr_cad_nouk_ft4.json
+MI (UKB)	MI (UKB)	甲减	221	310.4646	220	0.0001	0.0000	29.1385		step4/results/mr_mi_ukb_hypo.json
+MI (UKB)	MI (UKB)	TSH	256	458.3035	255	0.0000	0.0001	44.3600		step4/results/mr_mi_ukb_tsh.json
+MI (UKB)	MI (UKB)	FT4	65	82.0551	64	0.0637	0.0000	22.0037		step4/results/mr_mi_ukb_ft4.json
+IS-LAA (MEGASTROKE)	IS-LAA	甲减	216	280.6660	215	0.0017	0.0472	23.3965		step4/results/mr_is_laa_hypo.json
+IS-LAA (MEGASTROKE)	IS-LAA	TSH	251	307.2071	250	0.0079	0.1194	18.6217		step4/results/mr_is_laa_tsh.json
+IS-LAA (MEGASTROKE)	IS-LAA	FT4	65	82.5841	64	0.0589	0.1794	22.5032		step4/results/mr_is_laa_ft4.json
+IS-SV (MEGASTROKE)	IS-SV	甲减	195	267.3091	194	0.0004	0.0389	27.4248		step4/results/mr_is_sv_hypo.json
+IS-SV (MEGASTROKE)	IS-SV	TSH	220	250.9500	219	0.0682	0.0494	12.7316		step4/results/mr_is_sv_tsh.json
+IS-SV (MEGASTROKE)	IS-SV	FT4	60	82.4499	59	0.0236	0.1873	28.4414		step4/results/mr_is_sv_ft4.json

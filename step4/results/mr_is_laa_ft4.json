@@ -1,0 +1,75 @@
+{
+  "label": "IS-LAA (MEGASTROKE Malik2018; GCST005840)",
+  "trait": "ft4",
+  "nsnp": 65,
+  "n_case": 4373,
+  "n_eff_out": 17305.6528683213,
+  "overlap_note": null,
+  "ivw_fixed": {
+    "beta": 0.11682083630739117,
+    "se": 0.09645108619265398,
+    "p": 0.22582162023602373
+  },
+  "ivw_random": {
+    "beta": 0.1629095956501465,
+    "se": 0.11712332216427966,
+    "p": 0.1642485883940921,
+    "Q": 82.58409950476627,
+    "Q_df": 64,
+    "Q_pval": 0.05893752400105054,
+    "tau2": 0.17944035143278442,
+    "nsnp": 65
+  },
+  "mr_egger": {
+    "beta": 0.12595631119603753,
+    "se": 0.11082172637176362,
+    "p": 0.25571936415522856,
+    "intercept": 0.002360113052053592,
+    "intercept_se": 0.003439469748612766,
+    "intercept_pval": 0.49259636335060614,
+    "Q": 81.97146035244533,
+    "Q_df": 63,
+    "Q_pval": 0.05443992661510836,
+    "nsnp": 65
+  },
+  "weighted_median": {
+    "beta": -0.008802816901408451,
+    "se": 0.1821923584838498,
+    "p": 0.9614643555714828
+  },
+  "weighted_mode": {
+    "beta": -0.05293872911130659,
+    "se": 0.22732204598390868,
+    "p": 0.8158546881132477
+  },
+  "presso_equiv": {
+    "global_Q": 82.58409950476627,
+    "global_Q_df": 64,
+    "global_Q_pval": 0.05893752400105054,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 36,
+    "n_negative": 29,
+    "p": 0.4570207854105899
+  },
+  "directionality": {
+    "R2_X": 0.02367454182887081,
+    "R2_Y": 0.004855774399717357,
+    "nR2_X": 4532.467358595488,
+    "nR2_Y": 84.03234616838981,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 65,
+    "kept": 65,
+    "no_outcome": 0,
+    "allele_mismatch": 0,
+    "complement": 53,
+    "flipped": 27,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "eaf_missing": 0,
+    "palindromic_no_eaf": 0
+  }
+}

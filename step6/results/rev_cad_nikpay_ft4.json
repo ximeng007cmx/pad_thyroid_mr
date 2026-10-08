@@ -1,0 +1,86 @@
+{
+  "label": "CAD (Nikpay 2015; GCST003116)",
+  "trait": "ft4",
+  "nsnp": 11,
+  "n_case": 60801,
+  "n_eff_out": 191449.0,
+  "overlap_note": "与暴露无样本重叠",
+  "ivw_fixed": {
+    "beta": -0.011787064572657217,
+    "se": 0.01232074140928607,
+    "p": 0.33872643217083703
+  },
+  "ivw_random": {
+    "beta": 0.0013551547787829317,
+    "se": 0.02354772325325005,
+    "p": 0.9541076425690094,
+    "Q": 27.551208794159372,
+    "Q_df": 10,
+    "Q_pval": 0.0021291288998911144,
+    "tau2": 0.003378321390361687,
+    "nsnp": 11
+  },
+  "mr_egger": {
+    "beta": 0.017723348345733175,
+    "se": 0.02248960039931746,
+    "p": 0.43065656922080753,
+    "intercept": -0.005227868753222141,
+    "intercept_se": 0.0024746415749205605,
+    "intercept_pval": 0.03463706246406144,
+    "Q": 18.417981511832537,
+    "Q_df": 9,
+    "Q_pval": 0.03062248165479869,
+    "nsnp": 11
+  },
+  "weighted_median": {
+    "beta": -0.043582479843103074,
+    "se": 0.02506727281440128,
+    "p": 0.08210149992712411
+  },
+  "weighted_mode": {
+    "beta": -0.04094465940651526,
+    "se": 0.02340504394662572,
+    "p": 0.0802228195334337
+  },
+  "presso_equiv": {
+    "global_Q": 27.551208794159372,
+    "global_Q_df": 10,
+    "global_Q_pval": 0.0021291288998911144,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 5,
+    "n_negative": 6,
+    "p": 1.0
+  },
+  "directionality": {
+    "R2_X": 0.010479576769385645,
+    "R2_Y": 0.00014868001390969948,
+    "nR2_X": 637.1687471554166,
+    "nR2_Y": 28.464639982998055,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 41,
+    "kept": 11,
+    "no_outcome": 30,
+    "allele_mismatch": 0,
+    "complement": 6,
+    "flipped": 4,
+    "eaf_missing": 0,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "palindromic_no_eaf": 0
+  },
+  "coverage": {
+    "n_tools": 41,
+    "n_outcome_hit": 11,
+    "hit_pct": 26.8,
+    "by_route": {
+      "rs_id": 10,
+      "rsid": 1
+    },
+    "n_harmonised": 11
+  },
+  "outcome_label": "FT4 (Rand 2025)"
+}

@@ -1,0 +1,75 @@
+{
+  "label": "CAD (Mbatchou2021, UKB; GCST90013864)",
+  "trait": "ft4",
+  "nsnp": 65,
+  "n_case": 29339,
+  "n_eff_out": 107576.19444247194,
+  "overlap_note": "OVERLAP_UKB(暴露GWAS含UKB)",
+  "ivw_fixed": {
+    "beta": -0.0345212735627659,
+    "se": 0.04126994787828458,
+    "p": 0.40288781823620406
+  },
+  "ivw_random": {
+    "beta": -0.03382650174474614,
+    "se": 0.053386195979687245,
+    "p": 0.5263295759322806,
+    "Q": 92.66925995097456,
+    "Q_df": 64,
+    "Q_pval": 0.011054409694865909,
+    "tau2": 0.050592578318938444,
+    "nsnp": 65
+  },
+  "mr_egger": {
+    "beta": -0.039479567738784305,
+    "se": 0.050361337892909155,
+    "p": 0.4330834677787591,
+    "intercept": -0.0011068717610445975,
+    "intercept_se": 0.0015824790914351534,
+    "intercept_pval": 0.4842681808883776,
+    "Q": 91.95516782207811,
+    "Q_df": 63,
+    "Q_pval": 0.010101963550807266,
+    "nsnp": 65
+  },
+  "weighted_median": {
+    "beta": -0.05029067357512953,
+    "se": 0.03679196952962291,
+    "p": 0.17165894894010583
+  },
+  "weighted_mode": {
+    "beta": -0.06323890990025682,
+    "se": 0.06497232706848297,
+    "p": 0.33039394493026175
+  },
+  "presso_equiv": {
+    "global_Q": 92.66925995097456,
+    "global_Q_df": 64,
+    "global_Q_pval": 0.011054409694865909,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 27,
+    "n_negative": 38,
+    "p": 0.21453919400817845
+  },
+  "directionality": {
+    "R2_X": 0.02367454182887081,
+    "R2_Y": 0.0008678989243754658,
+    "nR2_X": 4532.467358595488,
+    "nR2_Y": 93.36526344502735,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 65,
+    "kept": 65,
+    "no_outcome": 0,
+    "allele_mismatch": 0,
+    "complement": 53,
+    "flipped": 27,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "eaf_missing": 65,
+    "palindromic_no_eaf": 0
+  }
+}

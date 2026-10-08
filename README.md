@@ -1,20 +1,28 @@
-# Analysis code — Thyroid function and atherosclerotic vascular disease: Mendelian randomization estimates depend on the outcome GWAS used
+# Analysis code — Thyroid function and atherosclerotic vascular disease: Mendelian randomization estimates depend on the outcome genome-wide association study used
 
-Version **v1.0.0** ｜ Date **2026-10-08**
+Version **v1.1.0** ｜ Date **2026-10-09**
 
 Two-sample Mendelian randomization (MR) analysis code accompanying the manuscript:
 
-> Thyroid function and atherosclerotic vascular disease: Mendelian randomization estimates depend substantially on the outcome GWAS used — a paired two-sample Mendelian randomization study
+> Thyroid function and atherosclerotic vascular disease: Mendelian randomization estimates depend substantially on the outcome genome-wide association study used — a paired two-sample Mendelian randomization study
 
-This repository contains the **complete analysis pipeline** (tool selection → harmonisation → MR estimation → replication → MVMR → reverse MR → colocalisation → power analysis → sample-overlap bias framework application) together with the **derived result tables** cited in the manuscript.
+This repository contains the **complete analysis pipeline** (tool selection → harmonization → MR estimation → replication → MVMR → reverse MR → colocalization → power analysis → sample-overlap bias framework application) together with the **derived result tables** cited in the manuscript.
+
+**What changed in v1.1.0** (relative to the superseded v1.0.0):
+
+1. **`s9_overlap_sim.py` now uses the pair-specific F_w** for each paired comparison, so the reverse application reproduces the manuscript exactly (required *r* = 84.4 / 99.7 / 287.1 and required π = 16.88 / 19.93 / 57.42). The v1.0.0 script pooled a single F_w and produced 99.5 / 285.9.
+2. **`step*/results/` are now included**, so the reported numbers can be checked without re-running the pipeline or re-downloading the raw summary statistics.
+3. **Seven Step-9 scripts that were missing from v1.0.0 are included** (`s9_i2_from_q.py`, `s9_eaf_concordance.py`, `s9_instrument_flow.py`, `s9_fig_assembly.py`, `s9_fig_design.py`, `s9_fig_design2.py`, `s9_fig_instrument_flow.py`).
+
+v1.1.0 is the version that reproduces every number in the manuscript; v1.0.0 remains available under its own version DOI but should not be used.
 
 ---
 
 ## 1. Study summary
 
 - **Exposures (3)**: hypothyroidism, TSH, free T4 (Rand et al. 2025, *Nat Genet*, PMID 41238958; GWAS Catalog GCST90572791 / GCST90572789 / GCST90572790)
-- **Outcomes (8)**: peripheral artery disease (Sakaue et al. 2021, PMID 34594039; GCST90018890), FinnGen R13 `I9_PAD`, MVP `te.PAD` (dbGaP pha004826), coronary artery disease (Nikpay 2015 PMID 26343387; Mbatchou 2021 PMID 34017140), myocardial infarction (UKB GCST90038610), ischaemic stroke large-artery and small-vessel subtypes (MEGASTROKE, PMID 29531354)
-- **Paired design**: the same exposure and the same phenotype are analysed against **two independently sourced outcome GWAS** (CAD: Nikpay ↔ Mbatchou; PAD: MVP ↔ Sakaue; PAD: MVP ↔ FinnGen R13)
+- **Outcomes (8)**: peripheral artery disease (Sakaue et al. 2021, PMID 34594039; GCST90018890), FinnGen R13 `I9_PAD`, MVP `te.PAD` (dbGaP pha004826), coronary artery disease (Nikpay 2015 PMID 26343387; Mbatchou 2021 PMID 34017140), myocardial infarction (UKB GCST90038610), ischemic stroke large-artery and small-vessel subtypes (MEGASTROKE, PMID 29531354)
+- **Paired design**: the same exposure and the same phenotype are analyzed against **two independently sourced outcome GWAS** (CAD: Nikpay ↔ Mbatchou; PAD: MVP ↔ Sakaue; PAD: MVP ↔ FinnGen R13)
 - **Sample-overlap framework**: the analysis **adopts the analytic framework of Burgess, Davies & Thompson (2016)** (*Genet Epidemiol* 40:597–608; PMID 27625185; DOI 10.1002/gepi.21998) and **applies it in reverse** to bound the influence of sample overlap. **No methodological novelty is claimed** — see `docs/` and the manuscript's Table 5.
 - **Reporting standard**: STROBE-MR (Skrivankova et al. 2021, *JAMA* 326:1614–1621; PMID 34698778)
 
@@ -33,13 +41,13 @@ This repository contains the **complete analysis pipeline** (tool selection → 
 ├── CITATION.cff               citation metadata (Citation File Format 1.2.0)
 ├── .zenodo.json               Zenodo deposition metadata for the archived release
 ├── scripts/                   Step 2: reference panel + LD clumping + instrument list
-├── step3/{scripts,results}/   Step 3: harmonisation + primary MR analysis
+├── step3/{scripts,results}/   Step 3: harmonization + primary MR analysis
 ├── step4/{scripts,results}/   Step 4: independent replication (MVP, FinnGen R13) + pan-vascular extension
 ├── step5/scripts/             Step 5: pan-vascular summary figure
 ├── step6/{scripts,results}/   Step 6: reverse MR
 ├── step7/{scripts,results}/   Step 7: multivariable MR (MVMR)
-├── step8/{scripts,results}/   Step 8: colocalisation (coloc.abf, pure Python)
-├── step9/{scripts,results}/   Step 9: power analysis + sample-overlap bias framework
+├── step8/{scripts,results}/   Step 8: colocalization (coloc.abf, pure Python)
+├── step9/{scripts,results}/   Step 9: power analysis, sample-overlap bias framework, diagnostic tables and manuscript figures
 └── docs/                      original working notes (Chinese) for data inventory and pipeline
 ```
 
@@ -52,7 +60,7 @@ This repository contains the **complete analysis pipeline** (tool selection → 
 ## 3. Environment
 
 - Python **3.13** (developed on 3.13.14)
-- Third-party packages: `numpy`, `matplotlib`, `openpyxl` (see `requirements.txt`)
+- Third-party packages: `numpy`, `matplotlib`, `openpyxl`, `pillow` (see `requirements.txt`)
 - **PLINK 1.9** (external binary, required by `scripts/s2_clump.py`) — download from <https://www.cog-genomics.org/plink/> and place at `tools/plink.exe` (Windows) or `tools/plink` (Linux/macOS)
 - Statistical routines (IVW, MR-Egger, weighted median/mode, Cochran's Q, MR-PRESSO-equivalent, leave-one-out, MVMR, coloc.abf) are **implemented from scratch in pure Python** — R is not required.
 
@@ -79,14 +87,14 @@ python scripts/s2_download_panel.py
 python scripts/s2a_extract.py
 python scripts/s2_clump.py
 
-# 2) harmonisation + primary MR analysis
+# 2) harmonization + primary MR analysis
 python step3/scripts/s3_harmonise.py
 python step3/scripts/s3_mr_main.py
 
 # 3) replication + pan-vascular extension
 python step4/scripts/s4_pipeline.py --outcome <key> --trait all
 
-# 4) reverse MR, MVMR, colocalisation
+# 4) reverse MR, MVMR, colocalization
 python step6/scripts/s6_rev_pipeline.py
 python step7/scripts/s7_mvmr.py
 python step8/scripts/s8_coloc.py
@@ -123,7 +131,7 @@ python relocate.py            # rewrites ROOT to this checkout's absolute path
 MIT — see `LICENSE`.
 
 **Scope of the licence.** The MIT licence above covers the analysis code in this
-repository only. The GWAS summary statistics analysed by this code are
+repository only. The GWAS summary statistics analyzed by this code are
 third-party data released under their own terms; they are listed with their
 accessions and sources in `DATA_SOURCES.md` and are **not** redistributed here.
 
@@ -132,13 +140,20 @@ accessions and sources in `DATA_SOURCES.md` and are **not** redistributed here.
 See `CITATION.cff`. If you use this code, please cite the accompanying
 manuscript and the archived Zenodo release of this repository.
 
-**Archived release (Zenodo):**
+**Archived releases (Zenodo):**
 
-- Version DOI (v1.0.0): https://doi.org/10.5281/zenodo.23239485
+| Version | Date | Version DOI |
+|---|---|---|
+| v1.0.0 (superseded) | 2026-10-08 | https://doi.org/10.5281/zenodo.23239485 |
+| **v1.1.0** | **2026-10-09** | *assigned by Zenodo when the GitHub release is published — to be backfilled here* |
+
+- **Concept DOI (always resolves to the newest archived version):** https://doi.org/10.5281/zenodo.23239484
 - GitHub repository: https://github.com/ximeng007cmx/pad_thyroid_mr
 
-The version DOI is stable and should be used in the manuscript's
-Data and code availability statement.
+Cite the **version DOI of the release you actually used**. The manuscript cites
+v1.1.0, the version that reproduces every reported number; the version DOI is
+stable and should be used in the manuscript's Data and code availability
+statement.
 
 ## 8. Contact
 

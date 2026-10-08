@@ -1,0 +1,74 @@
+{
+  "label": "PAD (Sakaue 2021; GCST90018890)",
+  "trait": "ft4",
+  "nsnp": 1,
+  "n_case": 7114,
+  "n_eff_out": 191449.0,
+  "overlap_note": "暴露队列含 UKB",
+  "ivw_fixed": {
+    "beta": 0.06473829201101929,
+    "se": 0.02203856749311295,
+    "p": 0.0033087017190950164
+  },
+  "ivw_random": {
+    "beta": 0.06473829201101929,
+    "se": 0.02203856749311295,
+    "p": 0.0033087017190950164,
+    "Q": 0.0,
+    "Q_df": 0,
+    "Q_pval": 1.0,
+    "tau2": 0.0,
+    "nsnp": 1
+  },
+  "mr_egger": null,
+  "weighted_median": {
+    "beta": null,
+    "se": null,
+    "p": null
+  },
+  "weighted_mode": {
+    "beta": null,
+    "se": null,
+    "p": null
+  },
+  "presso_equiv": {
+    "global_Q": 0.0,
+    "global_Q_df": 0,
+    "global_Q_pval": 1.0,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 1,
+    "n_negative": 0,
+    "p": 1.0
+  },
+  "directionality": {
+    "R2_X": 0.013173094786907116,
+    "R2_Y": 4.506953470224615e-05,
+    "nR2_X": 93.71339631405722,
+    "nR2_Y": 8.628517349210323,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 5,
+    "kept": 1,
+    "no_outcome": 4,
+    "allele_mismatch": 0,
+    "complement": 0,
+    "flipped": 0,
+    "eaf_missing": 0,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "palindromic_no_eaf": 0
+  },
+  "coverage": {
+    "n_tools": 5,
+    "n_outcome_hit": 1,
+    "hit_pct": 20.0,
+    "by_route": {
+      "rs_id": 1
+    },
+    "n_harmonised": 1
+  },
+  "outcome_label": "FT4 (Rand 2025)"
+}

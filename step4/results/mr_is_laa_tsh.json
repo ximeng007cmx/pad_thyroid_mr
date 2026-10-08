@@ -1,0 +1,85 @@
+{
+  "label": "IS-LAA (MEGASTROKE Malik2018; GCST005840)",
+  "trait": "tsh",
+  "nsnp": 251,
+  "n_case": 4373,
+  "n_eff_out": 17305.6528683213,
+  "overlap_note": null,
+  "ivw_fixed": {
+    "beta": -0.05985510402915759,
+    "se": 0.045161197052099436,
+    "p": 0.18504986940932328
+  },
+  "ivw_random": {
+    "beta": -0.023494822747759707,
+    "se": 0.05904652016079415,
+    "p": 0.6907012486691884,
+    "Q": 307.20705560242436,
+    "Q_df": 250,
+    "Q_pval": 0.007866817067638893,
+    "tau2": 0.1193861128435455,
+    "nsnp": 251
+  },
+  "mr_egger": {
+    "beta": -0.05824556904057099,
+    "se": 0.050125422319838166,
+    "p": 0.2452368562909067,
+    "intercept": 0.001492959827686837,
+    "intercept_se": 0.0017524421602885848,
+    "intercept_pval": 0.3942523817401053,
+    "Q": 306.314209402608,
+    "Q_df": 249,
+    "Q_pval": 0.00768693593689937,
+    "nsnp": 251
+  },
+  "weighted_median": {
+    "beta": -0.15533980582524273,
+    "se": 0.08344729857130813,
+    "p": 0.06266910422503615
+  },
+  "weighted_mode": {
+    "beta": -0.1516674969430003,
+    "se": 0.0626176587798506,
+    "p": 0.015430245260767651
+  },
+  "presso_equiv": {
+    "global_Q": 307.20705560242436,
+    "global_Q_df": 250,
+    "global_Q_pval": 0.007866817067638893,
+    "distortion": {
+      "n_outliers": 1,
+      "outlier_snps_idx": [
+        38
+      ],
+      "beta_corrected": -0.04859603611963504,
+      "se_corrected": 0.055625460933343585,
+      "p_corrected": 0.3823201289976477,
+      "distortion_z": 0.3094277185883952,
+      "distortion_p": 0.7569961878877289
+    }
+  },
+  "sign_test": {
+    "n_positive": 121,
+    "n_negative": 130,
+    "p": 0.613678491438161
+  },
+  "directionality": {
+    "R2_X": 0.1029051139397925,
+    "R2_Y": 0.01784869389438792,
+    "nR2_X": 49690.10108344942,
+    "nR2_Y": 308.88330068920317,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 258,
+    "kept": 251,
+    "no_outcome": 6,
+    "allele_mismatch": 0,
+    "complement": 197,
+    "flipped": 110,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 1,
+    "eaf_missing": 0,
+    "palindromic_no_eaf": 0
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "label": "MVP PAD (trans-ancestry meta)",
+  "trait": "ft4",
+  "nsnp": 63,
+  "n_case": 31307,
+  "n_eff_out": 109098.18433308648,
+  "overlap_note": null,
+  "ivw_fixed": {
+    "beta": 0.07757165954506001,
+    "se": 0.043161703785655106,
+    "p": 0.07229855987226531
+  },
+  "ivw_random": {
+    "beta": 0.07887697715022993,
+    "se": 0.06711837311055276,
+    "p": 0.23991789808461955,
+    "Q": 128.0559302087483,
+    "Q_df": 62,
+    "Q_pval": 1.678319511975224e-06,
+    "tau2": 0.12798446599325275,
+    "nsnp": 63
+  },
+  "mr_egger": {
+    "beta": 0.07600099873121147,
+    "se": 0.06306050474832695,
+    "p": 0.22812317439010205,
+    "intercept": -0.0003756472445280382,
+    "intercept_se": 0.0019741550188759325,
+    "intercept_pval": 0.8490877295254126,
+    "Q": 127.97996581690667,
+    "Q_df": 61,
+    "Q_pval": 1.162102276857687e-06,
+    "nsnp": 63
+  },
+  "weighted_median": {
+    "beta": -0.01346801346801347,
+    "se": 0.09230737809605533,
+    "p": 0.8839971928760033
+  },
+  "weighted_mode": {
+    "beta": -0.0035697719062102173,
+    "se": 0.14264553566033597,
+    "p": 0.9800346459843673
+  },
+  "presso_equiv": {
+    "global_Q": 128.0559302087483,
+    "global_Q_df": 62,
+    "global_Q_pval": 1.678319511975224e-06,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 35,
+    "n_negative": 28,
+    "p": 0.4499625362902225
+  },
+  "directionality": {
+    "R2_X": 0.023305063563493388,
+    "R2_Y": 0.0012032949090060782,
+    "nR2_X": 4461.731114167245,
+    "nR2_Y": 131.27728978980966,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 65,
+    "kept": 63,
+    "no_outcome": 2,
+    "allele_mismatch": 0,
+    "complement": 52,
+    "flipped": 16,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "eaf_missing": 0,
+    "palindromic_no_eaf": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "label": "CAD (Mbatchou2021, UKB; GCST90013864)",
+  "trait": "hypo",
+  "nsnp": 222,
+  "n_case": 29339,
+  "n_eff_out": 107576.19444247194,
+  "overlap_note": "OVERLAP_UKB(暴露GWAS含UKB)",
+  "ivw_fixed": {
+    "beta": 0.05457231671728457,
+    "se": 0.011148850593942402,
+    "p": 9.836434496746736e-07
+  },
+  "ivw_random": {
+    "beta": 0.04599723212012035,
+    "se": 0.015970652875977074,
+    "p": 0.003975368345728949,
+    "Q": 348.46761585204337,
+    "Q_df": 221,
+    "Q_pval": 9.442351862996431e-08,
+    "tau2": 0.016148629864313944,
+    "nsnp": 222
+  },
+  "mr_egger": {
+    "beta": 0.054612013628787114,
+    "se": 0.014030523145858412,
+    "p": 9.92689292876082e-05,
+    "intercept": -0.0002108865872504749,
+    "intercept_se": 0.0008815415119586602,
+    "intercept_pval": 0.8109312773323376,
+    "Q": 348.37699269945824,
+    "Q_df": 220,
+    "Q_pval": 7.57024877705862e-08,
+    "nsnp": 222
+  },
+  "weighted_median": {
+    "beta": 0.04516560788608981,
+    "se": 0.025352064185331334,
+    "p": 0.07482497512337946
+  },
+  "weighted_mode": {
+    "beta": 0.038525611901068624,
+    "se": 0.027302436095715588,
+    "p": 0.15822437002216674
+  },
+  "presso_equiv": {
+    "global_Q": 348.46761585204337,
+    "global_Q_df": 221,
+    "global_Q_pval": 9.442351862996431e-08,
+    "distortion": {
+      "n_outliers": 1,
+      "outlier_snps_idx": [
+        98
+      ],
+      "beta_corrected": 0.050021606871596645,
+      "se_corrected": 0.015503703550812908,
+      "p_corrected": 0.0012534509658457087,
+      "distortion_z": -0.18080430434159614,
+      "distortion_p": 0.8565211844194286
+    }
+  },
+  "sign_test": {
+    "n_positive": 129,
+    "n_negative": 93,
+    "p": 0.018619480178205212
+  },
+  "directionality": {
+    "R2_X": 0.05907743007632475,
+    "R2_Y": 0.0034616393083207464,
+    "nR2_X": 24217.973475563456,
+    "nR2_Y": 372.3899833216167,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 222,
+    "kept": 222,
+    "no_outcome": 0,
+    "allele_mismatch": 0,
+    "complement": 168,
+    "flipped": 89,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "eaf_missing": 222,
+    "palindromic_no_eaf": 0
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "label": "CAD (Nikpay2015 CARDIoGRAMplusC4D; GCST003116)",
+  "trait": "hypo",
+  "nsnp": 215,
+  "n_case": 60801,
+  "n_eff_out": 162972.6096199235,
+  "overlap_note": null,
+  "ivw_fixed": {
+    "beta": 0.030760126863534933,
+    "se": 0.012109714593707284,
+    "p": 0.011081447632053775
+  },
+  "ivw_random": {
+    "beta": 0.02662871328466731,
+    "se": 0.018331916395074505,
+    "p": 0.1463383084612489,
+    "Q": 381.0510621070073,
+    "Q_df": 214,
+    "Q_pval": 1.6536182135109237e-11,
+    "tau2": 0.024942824351302847,
+    "nsnp": 215
+  },
+  "mr_egger": {
+    "beta": 0.030704359008022063,
+    "se": 0.01620074787336824,
+    "p": 0.05806017488659574,
+    "intercept": 0.00014528614390588507,
+    "intercept_se": 0.0009963484979303855,
+    "intercept_pval": 0.884064591520289,
+    "Q": 381.0130268745767,
+    "Q_df": 213,
+    "Q_pval": 1.2384972529077618e-11,
+    "nsnp": 215
+  },
+  "weighted_median": {
+    "beta": 0.03805785123966942,
+    "se": 0.024562591396128687,
+    "p": 0.12127999800100205
+  },
+  "weighted_mode": {
+    "beta": 0.025349809062378492,
+    "se": 0.047211896135940463,
+    "p": 0.591311202526602
+  },
+  "presso_equiv": {
+    "global_Q": 381.0510621070073,
+    "global_Q_df": 214,
+    "global_Q_pval": 1.6536182135109237e-11,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 122,
+    "n_negative": 93,
+    "p": 0.05593373643987377
+  },
+  "directionality": {
+    "R2_X": 0.05703684468511675,
+    "R2_Y": 0.0023776018347109193,
+    "nR2_X": 23381.4637828593,
+    "nR2_Y": 387.4839756399565,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 222,
+    "kept": 215,
+    "no_outcome": 7,
+    "allele_mismatch": 0,
+    "complement": 163,
+    "flipped": 88,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "eaf_missing": 0,
+    "palindromic_no_eaf": 0
+  }
+}

@@ -1,0 +1,526 @@
+cfg	label	trait	Fw	r	pi	R_analytic	R_mc	R_mc_ratio	mc_lo	mc_hi	mc_rho_max	note
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0	1	1	1	0.214685	1.77735	0	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.05	1.00047						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.1	1.00093						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.15	1.0014						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.2	1.00187						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.25	1.00234	1.00231	1.00231	0.21521	1.78005	0.00522977	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.3	1.0028						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.35	1.00327						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.4	1.00374						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.45	1.00421						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.5	1.00467	1.00462	1.00462	0.216092	1.78145	0.0104595	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.55	1.00514						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.6	1.00561						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.65	1.00608						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.7	1.00654						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.75	1.00701	1.00693	1.00693	0.219641	1.784	0.0156893	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.8	1.00748						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.85	1.00795						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.9	1.00841						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	0.95	1.00888						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	1	1	1.00935	1.00924	1.00924	0.22062	1.78516	0.0209191	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0	1	1	1	0.214685	1.77735	0	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.05	1.00093						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.1	1.00187						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.15	1.0028						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.2	1.00374						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.25	1.00467	1.00462	1.00462	0.216092	1.78145	0.0104595	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.3	1.00561						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.35	1.00654						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.4	1.00748						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.45	1.00841						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.5	1.00935	1.00924	1.00924	0.22062	1.78516	0.0209191	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.55	1.01028						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.6	1.01122						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.65	1.01215						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.7	1.01309						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.75	1.01402	1.01387	1.01387	0.224589	1.78956	0.0313786	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.8	1.01496						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.85	1.01589						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.9	1.01683						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	0.95	1.01776						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	2	1	1.0187	1.01849	1.01849	0.226027	1.79459	0.0418381	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0	1	1	1	0.214685	1.77735	0	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.05	1.00234						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.1	1.00467						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.15	1.00701						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.2	1.00935						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.25	1.01169	1.01155	1.01155	0.222821	1.78736	0.0261488	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.3	1.01402						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.35	1.01636						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.4	1.0187						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.45	1.02104						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.5	1.02337	1.02311	1.02311	0.233888	1.79887	0.0522977	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.55	1.02571						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.6	1.02805						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.65	1.03039						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.7	1.03272						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.75	1.03506	1.03467	1.03467	0.243895	1.80819	0.0784465	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.8	1.0374						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.85	1.03974						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.9	1.04207						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	0.95	1.04441						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	5	1	1.04675	1.04623	1.04623	0.253751	1.8236	0.104595	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0	1	1	1	0.214685	1.77735	0	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.05	1.00467						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.1	1.00935						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.15	1.01402						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.2	1.0187						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.25	1.02337	1.02311	1.02311	0.233888	1.79887	0.0522977	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.3	1.02805						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.35	1.03272						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.4	1.0374						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.45	1.04207						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.5	1.04675	1.04623	1.04623	0.253751	1.8236	0.104595	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.55	1.05142						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.6	1.0561						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.65	1.06077						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.7	1.06545						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.75	1.07012	1.06936	1.06936	0.278062	1.84756	0.156893	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.8	1.0748						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.85	1.07947						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.9	1.08415						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	0.95	1.08882						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	10	1	1.09349	1.09249	1.09249	0.297886	1.87086	0.209191	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0	1	1	1	0.214685	1.77735	0	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.05	1.00935						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.1	1.0187						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.15	1.02805						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.2	1.0374						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.25	1.04675	1.04623	1.04623	0.253751	1.8236	0.104595	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.3	1.0561						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.35	1.06545						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.4	1.0748						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.45	1.08415						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.5	1.09349	1.09249	1.09249	0.297886	1.87086	0.209191	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.55	1.10284						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.6	1.11219						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.65	1.12154						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.7	1.13089						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.75	1.14024	1.13879	1.13879	0.336125	1.9138	0.313786	
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.8	1.14959						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.85	1.15894						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.9	1.16829						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	0.95	1.17764						
+cad_nouk	CAD (Nikpay 2015)	hypo	106.958	20	1	1.18699	1.18512	1.18512	0.3812	1.96051	0.418381	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0	1	1	1	0.283437	1.72105	0	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.05	1.00046						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.1	1.00092						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.15	1.00138						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.2	1.00183						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.25	1.00229	1.00225	1.00225	0.286547	1.72325	0.00582284	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.3	1.00275						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.35	1.00321						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.4	1.00367						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.45	1.00413						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.5	1.00459	1.00451	1.00451	0.287645	1.72457	0.0116457	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.55	1.00504						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.6	1.0055						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.65	1.00596						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.7	1.00642						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.75	1.00688	1.00676	1.00676	0.288682	1.72688	0.0174685	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.8	1.00734						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.85	1.0078						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.9	1.00826						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	0.95	1.00871						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	1	1	1.00917	1.00901	1.00901	0.292157	1.72867	0.0232913	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0	1	1	1	0.283437	1.72105	0	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.05	1.00092						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.1	1.00183						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.15	1.00275						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.2	1.00367						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.25	1.00459	1.00451	1.00451	0.287645	1.72457	0.0116457	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.3	1.0055						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.35	1.00642						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.4	1.00734						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.45	1.00826						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.5	1.00917	1.00901	1.00901	0.292157	1.72867	0.0232913	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.55	1.01009						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.6	1.01101						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.65	1.01192						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.7	1.01284						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.75	1.01376	1.01352	1.01352	0.296662	1.73228	0.034937	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.8	1.01468						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.85	1.01559						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.9	1.01651						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	0.95	1.01743						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	2	1	1.01835	1.01803	1.01803	0.301818	1.73614	0.0465827	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0	1	1	1	0.283437	1.72105	0	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.05	1.00229						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.1	1.00459						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.15	1.00688						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.2	1.00917						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.25	1.01147	1.01127	1.01127	0.293792	1.73044	0.0291142	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.3	1.01376						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.35	1.01605						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.4	1.01835						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.45	1.02064						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.5	1.02293	1.02254	1.02254	0.306406	1.74007	0.0582284	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.55	1.02522						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.6	1.02752						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.65	1.02981						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.7	1.0321						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.75	1.0344	1.03381	1.03381	0.320546	1.75188	0.0873426	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.8	1.03669						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.85	1.03898						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.9	1.04128						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	0.95	1.04357						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	5	1	1.04586	1.04508	1.04508	0.329242	1.7634	0.116457	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0	1	1	1	0.283437	1.72105	0	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.05	1.00459						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.1	1.00917						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.15	1.01376						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.2	1.01835						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.25	1.02293	1.02254	1.02254	0.306406	1.74007	0.0582284	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.3	1.02752						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.35	1.0321						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.4	1.03669						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.45	1.04128						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.5	1.04586	1.04508	1.04508	0.329242	1.7634	0.116457	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.55	1.05045						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.6	1.05504						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.65	1.05962						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.7	1.06421						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.75	1.06879	1.06762	1.06762	0.349928	1.78289	0.174685	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.8	1.07338						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.85	1.07797						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.9	1.08255						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	0.95	1.08714						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	10	1	1.09173	1.09017	1.09017	0.374977	1.80237	0.232913	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0	1	1	1	0.283437	1.72105	0	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.05	1.00917						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.1	1.01835						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.15	1.02752						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.2	1.03669						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.25	1.04586	1.04508	1.04508	0.329242	1.7634	0.116457	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.3	1.05504						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.35	1.06421						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.4	1.07338						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.45	1.08255						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.5	1.09173	1.09017	1.09017	0.374977	1.80237	0.232913	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.55	1.1009						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.6	1.11007						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.65	1.11924						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.7	1.12842						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.75	1.13759	1.13529	1.13529	0.414566	1.84269	0.34937	
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.8	1.14676						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.85	1.15593						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.9	1.16511						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	0.95	1.17428						
+cad_ukb	CAD (UKB Mbatchou 2021)	hypo	109.021	20	1	1.18345	1.18042	1.18042	0.458098	1.8804	0.465827	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0	1	1	1	0.0154532	1.95369	0	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.05	1.00044						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.1	1.00089						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.15	1.00133						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.2	1.00178						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.25	1.00222	1.00223	1.00223	0.0177059	1.95732	0.00459909	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.3	1.00267						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.35	1.00311						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.4	1.00356						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.45	1.004						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.5	1.00445	1.00446	1.00446	0.0189789	1.95995	0.00919818	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.55	1.00489						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.6	1.00534						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.65	1.00578						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.7	1.00623						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.75	1.00667	1.00669	1.00669	0.0231742	1.96253	0.0137973	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.8	1.00712						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.85	1.00756						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.9	1.008						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	0.95	1.00845						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	1	1	1.00889	1.00892	1.00892	0.0255119	1.96471	0.0183964	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0	1	1	1	0.0154532	1.95369	0	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.05	1.00089						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.1	1.00178						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.15	1.00267						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.2	1.00356						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.25	1.00445	1.00446	1.00446	0.0189789	1.95995	0.00919818	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.3	1.00534						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.35	1.00623						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.4	1.00712						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.45	1.008						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.5	1.00889	1.00892	1.00892	0.0255119	1.96471	0.0183964	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.55	1.00978						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.6	1.01067						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.65	1.01156						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.7	1.01245						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.75	1.01334	1.01338	1.01338	0.031955	1.96926	0.0275945	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.8	1.01423						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.85	1.01512						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.9	1.01601						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	0.95	1.0169						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	2	1	1.01779	1.01784	1.01784	0.0375777	1.97409	0.0367927	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0	1	1	1	0.0154532	1.95369	0	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.05	1.00222						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.1	1.00445						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.15	1.00667						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.2	1.00889						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.25	1.01112	1.01115	1.01115	0.0289716	1.96633	0.0229955	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.3	1.01334						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.35	1.01556						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.4	1.01779						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.45	1.02001						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.5	1.02223	1.02229	1.02229	0.0437263	1.97894	0.0459909	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.55	1.02446						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.6	1.02668						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.65	1.0289						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.7	1.03113						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.75	1.03335	1.03344	1.03344	0.0595013	1.98932	0.0689864	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.8	1.03558						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.85	1.0378						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.9	1.04002						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	0.95	1.04225						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	5	1	1.04447	1.04459	1.04459	0.0688414	2.00081	0.0919818	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0	1	1	1	0.0154532	1.95369	0	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.05	1.00445						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.1	1.00889						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.15	1.01334						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.2	1.01779						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.25	1.02223	1.02229	1.02229	0.0437263	1.97894	0.0459909	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.3	1.02668						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.35	1.03113						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.4	1.03558						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.45	1.04002						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.5	1.04447	1.04459	1.04459	0.0688414	2.00081	0.0919818	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.55	1.04892						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.6	1.05336						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.65	1.05781						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.7	1.06226						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.75	1.0667	1.06689	1.06689	0.0863991	2.02178	0.137973	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.8	1.07115						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.85	1.0756						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.9	1.08004						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	0.95	1.08449						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	10	1	1.08894	1.0892	1.0892	0.111007	2.0438	0.183964	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0	1	1	1	0.0154532	1.95369	0	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.05	1.00889						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.1	1.01779						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.15	1.02668						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.2	1.03558						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.25	1.04447	1.04459	1.04459	0.0688414	2.00081	0.0919818	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.3	1.05336						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.35	1.06226						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.4	1.07115						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.45	1.08004						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.5	1.08894	1.0892	1.0892	0.111007	2.0438	0.183964	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.55	1.09783						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.6	1.10673						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.65	1.11562						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.7	1.12451						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.75	1.13341	1.13381	1.13381	0.162193	2.08271	0.275945	
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.8	1.1423						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.85	1.1512						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.9	1.16009						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	0.95	1.16898						
+mvp_meta	PAD (MVP trans-ancestry)	hypo	112.437	20	1	1.17788	1.17844	1.17844	0.203222	2.12272	0.367927	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0	1	1	1	-0.542258	2.55606	0	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.05	1.00046						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.1	1.00092						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.15	1.00137						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.2	1.00183						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.25	1.00229	1.00224	1.00224	-0.538701	2.5581	0.0030169	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.3	1.00275						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.35	1.00321						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.4	1.00366						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.45	1.00412						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.5	1.00458	1.00448	1.00448	-0.536988	2.55865	0.00603379	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.55	1.00504						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.6	1.00549						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.65	1.00595						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.7	1.00641						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.75	1.00687	1.00672	1.00672	-0.535268	2.56056	0.00905069	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.8	1.00733						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.85	1.00778						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.9	1.00824						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	0.95	1.0087						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	1	1	1.00916	1.00896	1.00896	-0.532938	2.56323	0.0120676	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0	1	1	1	-0.542258	2.55606	0	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.05	1.00092						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.1	1.00183						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.15	1.00275						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.2	1.00366						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.25	1.00458	1.00448	1.00448	-0.536988	2.55865	0.00603379	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.3	1.00549						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.35	1.00641						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.4	1.00733						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.45	1.00824						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.5	1.00916	1.00896	1.00896	-0.532938	2.56323	0.0120676	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.55	1.01007						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.6	1.01099						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.65	1.0119						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.7	1.01282						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.75	1.01374	1.01344	1.01344	-0.528157	2.56925	0.0181014	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.8	1.01465						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.85	1.01557						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.9	1.01648						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	0.95	1.0174						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	2	1	1.01832	1.01791	1.01791	-0.521494	2.57209	0.0241352	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0	1	1	1	-0.542258	2.55606	0	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.05	1.00229						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.1	1.00458						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.15	1.00687						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.2	1.00916						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.25	1.01145	1.0112	1.0112	-0.530472	2.56607	0.0150845	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.3	1.01374						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.35	1.01603						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.4	1.01832						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.45	1.0206						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.5	1.02289	1.02239	1.02239	-0.51643	2.5772	0.030169	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.55	1.02518						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.6	1.02747						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.65	1.02976						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.7	1.03205						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.75	1.03434	1.03359	1.03359	-0.507323	2.58742	0.0452534	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.8	1.03663						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.85	1.03892						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.9	1.04121						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	0.95	1.0435						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	5	1	1.04579	1.04478	1.04478	-0.498578	2.59246	0.0603379	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0	1	1	1	-0.542258	2.55606	0	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.05	1.00458						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.1	1.00916						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.15	1.01374						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.2	1.01832						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.25	1.02289	1.02239	1.02239	-0.51643	2.5772	0.030169	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.3	1.02747						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.35	1.03205						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.4	1.03663						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.45	1.04121						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.5	1.04579	1.04478	1.04478	-0.498578	2.59246	0.0603379	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.55	1.05037						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.6	1.05495						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.65	1.05952						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.7	1.0641						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.75	1.06868	1.06717	1.06717	-0.47571	2.62361	0.0905069	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.8	1.07326						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.85	1.07784						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.9	1.08242						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	0.95	1.087						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	10	1	1.09158	1.08955	1.08955	-0.446825	2.64436	0.120676	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0	1	1	1	-0.542258	2.55606	0	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.05	1.00916						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.1	1.01832						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.15	1.02747						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.2	1.03663						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.25	1.04579	1.04478	1.04478	-0.498578	2.59246	0.0603379	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.3	1.05495						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.35	1.0641						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.4	1.07326						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.45	1.08242						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.5	1.09158	1.08955	1.08955	-0.446825	2.64436	0.120676	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.55	1.10073						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.6	1.10989						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.65	1.11905						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.7	1.12821						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.75	1.13736	1.13431	1.13431	-0.408132	2.68505	0.181014	
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.8	1.14652						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.85	1.15568						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.9	1.16484						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	0.95	1.17399						
+sakaue	PAD (Sakaue 2021, main)	hypo	109.199	20	1	1.18315	1.17906	1.17906	-0.367096	2.72396	0.241352	
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0	1	1	1	-0.0167476	2.04128	0	
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.05	1.00046						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.1	1.00091						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.15	1.00137						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.2	1.00183						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.25	1.00228	1.00228	1.00228	-0.0155759	2.04485	0.00472458	
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.3	1.00274						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.35	1.0032						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.4	1.00365						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.45	1.00411						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.5	1.00457	1.00457	1.00457	-0.0135661	2.04662	0.00944915	
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.55	1.00502						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.6	1.00548						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.65	1.00594						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.7	1.00639						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.75	1.00685	1.00685	1.00685	-0.0100354	2.04946	0.0141737	
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.8	1.00731						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.85	1.00776						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.9	1.00822						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	0.95	1.00868						
+finngen	PAD (FinnGen R13)	hypo	109.497	1	1	1.00913	1.00913	1.00913	-0.0075271	2.05155	0.0188983	
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0	1	1	1	-0.0167476	2.04128	0	
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.05	1.00091						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.1	1.00183						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.15	1.00274						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.2	1.00365						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.25	1.00457	1.00457	1.00457	-0.0135661	2.04662	0.00944915	
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.3	1.00548						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.35	1.00639						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.4	1.00731						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.45	1.00822						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.5	1.00913	1.00913	1.00913	-0.0075271	2.05155	0.0188983	
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.55	1.01005						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.6	1.01096						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.65	1.01187						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.7	1.01279						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.75	1.0137	1.0137	1.0137	-0.0054151	2.05524	0.0283475	
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.8	1.01461						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.85	1.01553						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.9	1.01644						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	0.95	1.01735						
+finngen	PAD (FinnGen R13)	hypo	109.497	2	1	1.01827	1.01827	1.01827	-0.000516108	2.05785	0.0377966	
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0	1	1	1	-0.0167476	2.04128	0	
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.05	1.00228						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.1	1.00457						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.15	1.00685						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.2	1.00913						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.25	1.01142	1.01142	1.01142	-0.00657746	2.05303	0.0236229	
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.3	1.0137						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.35	1.01598						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.4	1.01827						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.45	1.02055						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.5	1.02283	1.02283	1.02283	0.00423347	2.06104	0.0472458	
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.55	1.02511						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.6	1.0274						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.65	1.02968						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.7	1.03196						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.75	1.03425	1.03425	1.03425	0.017344	2.075	0.0708686	
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.8	1.03653						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.85	1.03881						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.9	1.0411						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	0.95	1.04338						
+finngen	PAD (FinnGen R13)	hypo	109.497	5	1	1.04566	1.04566	1.04566	0.0256462	2.09161	0.0944915	
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0	1	1	1	-0.0167476	2.04128	0	
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.05	1.00457						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.1	1.00913						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.15	1.0137						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.2	1.01827						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.25	1.02283	1.02283	1.02283	0.00423347	2.06104	0.0472458	
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.3	1.0274						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.35	1.03196						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.4	1.03653						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.45	1.0411						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.5	1.04566	1.04566	1.04566	0.0256462	2.09161	0.0944915	
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.55	1.05023						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.6	1.0548						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.65	1.05936						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.7	1.06393						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.75	1.0685	1.06849	1.06849	0.0513397	2.11595	0.141737	
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.8	1.07306						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.85	1.07763						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.9	1.08219						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	0.95	1.08676						
+finngen	PAD (FinnGen R13)	hypo	109.497	10	1	1.09133	1.0913	1.0913	0.07617	2.14263	0.188983	
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0	1	1	1	-0.0167476	2.04128	0	
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.05	1.00913						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.1	1.01827						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.15	1.0274						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.2	1.03653						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.25	1.04566	1.04566	1.04566	0.0256462	2.09161	0.0944915	
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.3	1.0548						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.35	1.06393						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.4	1.07306						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.45	1.08219						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.5	1.09133	1.0913	1.0913	0.07617	2.14263	0.188983	
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.55	1.10046						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.6	1.10959						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.65	1.11872						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.7	1.12786						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.75	1.13699	1.13693	1.13693	0.122053	2.19212	0.283475	
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.8	1.14612						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.85	1.15526						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.9	1.16439						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	0.95	1.17352						
+finngen	PAD (FinnGen R13)	hypo	109.497	20	1	1.18265	1.18254	1.18254	0.165392	2.23348	0.377966	

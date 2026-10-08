@@ -1,0 +1,47 @@
+{
+  "hypo": {
+    "total": 222,
+    "rs_id": 222,
+    "rsid_gwas": 0,
+    "pos": 0,
+    "no_outcome": 0,
+    "allele_mismatch": 0,
+    "palindromic_ambiguous": 0,
+    "se_bad": 0,
+    "kept": 221,
+    "eaf_discordant": 1,
+    "flipped": 89,
+    "complement": 168,
+    "eaf_gap_015": 1
+  },
+  "tsh": {
+    "total": 258,
+    "rs_id": 256,
+    "rsid_gwas": 0,
+    "pos": 0,
+    "no_outcome": 2,
+    "allele_mismatch": 0,
+    "palindromic_ambiguous": 0,
+    "se_bad": 0,
+    "kept": 256,
+    "eaf_discordant": 0,
+    "flipped": 111,
+    "complement": 200,
+    "eaf_gap_015": 4
+  },
+  "ft4": {
+    "total": 65,
+    "rs_id": 64,
+    "rsid_gwas": 0,
+    "pos": 1,
+    "no_outcome": 0,
+    "allele_mismatch": 0,
+    "palindromic_ambiguous": 0,
+    "se_bad": 0,
+    "kept": 65,
+    "eaf_discordant": 0,
+    "flipped": 27,
+    "complement": 53,
+    "eaf_gap_015": 0
+  }
+}

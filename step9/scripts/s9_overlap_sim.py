@@ -6,7 +6,7 @@ Step 9 附：样本重叠偏倚的「解析 + 蒙特卡洛模拟」——重叠�
 一、问题
 ================================================================================
 Step 5 §3 的配对设计观察到：同一暴露（甲减）在两个结局 GWAS 上给出的 β 相差
-1.77×（CAD）/ 1.90×（PAD，Sakaue→FinnGen）/ 3.62×（PAD，MVP→FinnGen）。
+1.77×（CAD）/ 1.91×（PAD，MVP→Sakaue）/ 3.62×（PAD，MVP→FinnGen）。
 此前文档把这些差异全部归因于「样本重叠」。本脚本用模拟定量回答：
 **在项目实际的工具强度下，样本重叠最多能造成多大的偏倚？能否解释上述差异？**
 
@@ -395,6 +395,10 @@ def main():
     worst = max(ok, key=lambda x: abs(x["R_analytic"] - x["R_mc"]))
     Fh = idx[("cad_ukb", "hypo")]["Fw"]
     Ft = idx[("cad_ukb", "tsh")]["Fw"]
+    # 头条反解值必须与 observed_pairs 一致：使用**逐对** F_w（而非单一 Fh）
+    _cad = [a for a in anchor_rows if a["disease"] == "CAD"][0]
+    _pad = sorted([a for a in anchor_rows if a["disease"] == "PAD"], key=lambda a: a["R_obs"])
+    _pad_sakaue, _pad_r13 = _pad[0], _pad[1]
     summary = dict(
         seed=RNG_SEED, nrep=NREP, pi_grid=PIS, mc_pi_grid=MC_PIS, r_grid=RS,
         model="plim beta_hat = beta*(F_w + pi*r)/(F_w + 1);  R(pi) = 1 + pi*r/F_w",
@@ -422,11 +426,16 @@ def main():
             R_max_pi1_r5=round(R_max_at_full_overlap(5.0, Fh), 4),
             R_max_pi1_r10=round(R_max_at_full_overlap(10.0, Fh), 4),
             R_max_pi1_r20=round(R_max_at_full_overlap(20.0, Fh), 4),
-            r_needed_for_R177=round(r_required(1.774, Fh, 1.0), 1),
-            r_needed_for_R190=round(r_required(1.913, Fh, 1.0), 1),
-            r_needed_for_R362=round(r_required(3.622, Fh, 1.0), 1),
-            pi_needed_for_R177_at_r5=round(pi_required(1.774, 5.0, Fh), 2),
-            pi_needed_for_R177_at_r10=round(pi_required(1.774, 10.0, Fh), 2),
+            # 反解值按各配对自己的 F_w 计（与 observed_pairs / 论文 Table 3 同口径）
+            r_needed_for_R177=round(r_required(_cad["R_obs"], _cad["Fw_over"], 1.0), 1),
+            r_needed_for_R190=round(r_required(_pad_sakaue["R_obs"], _pad_sakaue["Fw_over"], 1.0), 1),
+            r_needed_for_R362=round(r_required(_pad_r13["R_obs"], _pad_r13["Fw_over"], 1.0), 1),
+            pi_needed_for_R177_at_r5=round(pi_required(_cad["R_obs"], 5.0, _cad["Fw_over"]), 2),
+            pi_needed_for_R177_at_r10=round(pi_required(_cad["R_obs"], 10.0, _cad["Fw_over"]), 2),
+            Fw_used_for_r_needed=dict(CAD_Nikpay_to_UKB=round(_cad["Fw_over"], 2),
+                                      PAD_MVP_to_Sakaue=round(_pad_sakaue["Fw_over"], 2),
+                                      PAD_MVP_to_FinnGenR13=round(_pad_r13["Fw_over"], 2)),
+            note_r_needed="r_needed_* 按逐对 F_w 计算（pair-specific），与 observed_pairs 及论文 Table 3 一致；R_max_* 用甲减 CAD-UKB 层 F_w。",
         ),
     )
     pj = os.path.join(RES, "overlap_sim_summary.json")
@@ -462,7 +471,7 @@ def make_figures(cfgs, idx, curve_rows, anchor_rows, mc_checks, tsh_flip,
                     mec="#222222", mew=1.4, zorder=5, label="Monte Carlo (r = 5)")
         ax.axhline(1.0, color="#888888", lw=1.0, ls="--")
         ax.axhspan(1.77, 3.70, color="#C44E52", alpha=0.10)
-        ax.text(0.99, 3.58, "observed between-GWAS differences\n1.77× / 1.90× / 3.62×",
+        ax.text(0.99, 3.58, "observed between-GWAS differences\n1.77× / 1.91× / 3.62×",
                 fontsize=8.4, color="#8B1A1A", ha="right", va="top")
         ax.set_xlim(-0.02, 1.02)
         ax.set_ylim(0.94, 3.80)

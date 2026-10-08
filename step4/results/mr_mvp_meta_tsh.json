@@ -1,0 +1,86 @@
+{
+  "label": "MVP PAD (trans-ancestry meta)",
+  "trait": "tsh",
+  "nsnp": 251,
+  "n_case": 31307,
+  "n_eff_out": 109098.18433308648,
+  "overlap_note": null,
+  "ivw_fixed": {
+    "beta": -0.02918022420669527,
+    "se": 0.019313614541321182,
+    "p": 0.13082337792303425
+  },
+  "ivw_random": {
+    "beta": -0.02307807189808036,
+    "se": 0.030157893069529502,
+    "p": 0.4441277406169838,
+    "Q": 398.703543971556,
+    "Q_df": 250,
+    "Q_pval": 6.476912370002408e-09,
+    "tau2": 0.05678478961545989,
+    "nsnp": 251
+  },
+  "mr_egger": {
+    "beta": -0.02946406410903298,
+    "se": 0.024465759399548558,
+    "p": 0.22847443529692554,
+    "intercept": -0.0002106145085273306,
+    "intercept_se": 0.0008869391049178107,
+    "intercept_pval": 0.8122982429125097,
+    "Q": 398.61327440157976,
+    "Q_df": 249,
+    "Q_pval": 5.171119646176667e-09,
+    "nsnp": 251
+  },
+  "weighted_median": {
+    "beta": -0.05016181229773463,
+    "se": 0.0473706197818652,
+    "p": 0.289635103529558
+  },
+  "weighted_mode": {
+    "beta": -0.050453288850645706,
+    "se": 0.038850830451761215,
+    "p": 0.19406709389823187
+  },
+  "presso_equiv": {
+    "global_Q": 398.703543971556,
+    "global_Q_df": 250,
+    "global_Q_pval": 6.476912370002408e-09,
+    "distortion": {
+      "n_outliers": 2,
+      "outlier_snps_idx": [
+        39,
+        156
+      ],
+      "beta_corrected": -0.026821813991165885,
+      "se_corrected": 0.02775735424250585,
+      "p_corrected": 0.333896202100043,
+      "distortion_z": 0.09133879103301619,
+      "distortion_p": 0.9272233960078085
+    }
+  },
+  "sign_test": {
+    "n_positive": 121,
+    "n_negative": 130,
+    "p": 0.613678491438161
+  },
+  "directionality": {
+    "R2_X": 0.1055360345276703,
+    "R2_Y": 0.00367521784788327,
+    "nR2_X": 50960.501600479736,
+    "nR2_Y": 400.9595942326184,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 258,
+    "kept": 251,
+    "no_outcome": 7,
+    "allele_mismatch": 0,
+    "complement": 196,
+    "flipped": 65,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "eaf_missing": 0,
+    "palindromic_no_eaf": 0
+  }
+}

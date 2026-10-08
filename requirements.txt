@@ -8,6 +8,7 @@
 numpy>=2.0,<3.0        # 2.5.3 used
 matplotlib>=3.8        # 3.11.2 used
 openpyxl>=3.1          # 3.1.5 used
+pillow>=10.0           # 12.3.0 used (figure assembly: RGB flattening + 300 dpi tag)
 
 # Not required (deliberately avoided): pandas, scipy, R.
 # External (non-Python): PLINK 1.9 — https://www.cog-genomics.org/plink/

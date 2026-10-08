@@ -1,0 +1,86 @@
+{
+  "label": "CAD (Nikpay 2015; GCST003116)",
+  "trait": "tsh",
+  "nsnp": 11,
+  "n_case": 60801,
+  "n_eff_out": 482873.0,
+  "overlap_note": "与暴露无样本重叠",
+  "ivw_fixed": {
+    "beta": -0.0012616472753500098,
+    "se": 0.008083650654033894,
+    "p": 0.875974732832282
+  },
+  "ivw_random": {
+    "beta": -0.004186245366051795,
+    "se": 0.018178926010105838,
+    "p": 0.8178741030746879,
+    "Q": 38.337127563642,
+    "Q_df": 10,
+    "Q_pval": 3.315024666833071e-05,
+    "tau2": 0.0023479123305062207,
+    "nsnp": 11
+  },
+  "mr_egger": {
+    "beta": -0.008232430571760645,
+    "se": 0.020854478191423664,
+    "p": 0.6930229636886734,
+    "intercept": 0.001238358103914503,
+    "intercept_se": 0.002284438240859005,
+    "intercept_pval": 0.5877604339980498,
+    "Q": 37.12497490767397,
+    "Q_df": 9,
+    "Q_pval": 2.5000507273725163e-05,
+    "nsnp": 11
+  },
+  "weighted_median": {
+    "beta": -0.001894890427961003,
+    "se": 0.014501468990292518,
+    "p": 0.8960372668430939
+  },
+  "weighted_mode": {
+    "beta": 0.001967638024386542,
+    "se": 0.019284585861834656,
+    "p": 0.9187315568359498
+  },
+  "presso_equiv": {
+    "global_Q": 38.337127563642,
+    "global_Q_df": 10,
+    "global_Q_pval": 3.315024666833071e-05,
+    "distortion": null
+  },
+  "sign_test": {
+    "n_positive": 7,
+    "n_negative": 4,
+    "p": 0.548828125
+  },
+  "directionality": {
+    "R2_X": 0.010479576769385645,
+    "R2_Y": 7.944228009337315e-05,
+    "nR2_X": 637.1687471554166,
+    "nR2_Y": 38.36053211552738,
+    "direction": "forward (X->Y)"
+  },
+  "harmonise": {
+    "total": 41,
+    "kept": 11,
+    "no_outcome": 30,
+    "allele_mismatch": 0,
+    "complement": 6,
+    "flipped": 4,
+    "eaf_missing": 0,
+    "palindromic_ambiguous": 0,
+    "eaf_discordant": 0,
+    "palindromic_no_eaf": 0
+  },
+  "coverage": {
+    "n_tools": 41,
+    "n_outcome_hit": 11,
+    "hit_pct": 26.8,
+    "by_route": {
+      "rs_id": 10,
+      "rsid": 1
+    },
+    "n_harmonised": 11
+  },
+  "outcome_label": "TSH (Rand 2025)"
+}

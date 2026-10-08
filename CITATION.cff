@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both the software and the associated manuscript."
+title: "Analysis code for: Thyroid function and atherosclerotic vascular disease — Mendelian randomization estimates depend substantially on the outcome GWAS used"
+type: software
+version: 1.0.0
+date-released: 2026-10-08
+license: MIT
+url: "https://github.com/ximeng007cmx/pad_thyroid_mr"
+repository-code: "https://github.com/ximeng007cmx/pad_thyroid_mr"
+abstract: >-
+  Two-sample Mendelian randomization analysis pipeline for three thyroid function
+  traits (hypothyroidism, TSH, free T4) against eight atherosclerotic vascular
+  outcomes, including a paired design across independently sourced outcome GWAS,
+  independent replication, MVMR, reverse MR, colocalisation, power analysis and
+  the reverse application of the sample-overlap framework of Burgess et al. (2016).
+keywords:
+  - Mendelian randomization
+  - thyroid function
+  - hypothyroidism
+  - peripheral artery disease
+  - atherosclerotic vascular disease
+  - sample overlap
+  - between-GWAS heterogeneity
+  - genetic epidemiology
+authors:
+  - family-names: "Chen"
+    given-names: "Mingxiang"
+    affiliation: "Shapingba Hospital, Chongqing University"
+contact:
+  - family-names: "Chen"
+    given-names: "Mingxiang"
+    affiliation: "Shapingba Hospital, Chongqing University"
+
+preferred-citation:
+  type: article
+  title: "Thyroid function and atherosclerotic vascular disease: Mendelian randomization estimates depend substantially on the outcome GWAS used — a paired two-sample Mendelian randomization study"
+  year: 2026
+  journal: "BMC Cardiovascular Disorders"
+  authors:
+    - family-names: "Chen"
+      given-names: "Mingxiang"
+  # status: submitted

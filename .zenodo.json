@@ -1,0 +1,41 @@
+{
+  "title": "Analysis code for: Thyroid function and atherosclerotic vascular disease — Mendelian randomization estimates depend substantially on the outcome GWAS used",
+  "description": "<p>Two-sample Mendelian randomization (MR) analysis pipeline for three thyroid function traits (hypothyroidism, TSH, free T4) against eight atherosclerotic vascular outcomes.</p><p>Includes: LD clumping and instrument selection; harmonisation with strand-complement handling; primary MR (Wald, IVW fixed/random, MR-Egger, weighted median, weighted mode, Cochran's Q, MR-PRESSO-equivalent outlier detection, leave-one-out, directionality); independent replication in MVP and FinnGen R13; pan-vascular spectrum extension; reverse MR; multivariable MR; colocalisation (pure-Python coloc.abf); power analysis and outcome-scale screening; and the reverse application of the sample-overlap analytic framework of <b>Burgess, Davies &amp; Thompson (2016)</b>.</p><p><b>No methodological novelty is claimed</b> for the analytic framework — it is adopted from Burgess et al. (2016), <i>Genet Epidemiol</i> 40:597-608, PMID 27625185, DOI 10.1002/gepi.21998, and applied in reverse.</p><p><b>Note:</b> raw GWAS summary statistics are third-party public data and are <i>not</i> redistributed here; all accessions are listed in DATA_SOURCES.md.</p>",
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.0.0",
+  "publication_date": "2026-10-08",
+  "keywords": [
+    "Mendelian randomization",
+    "thyroid function",
+    "hypothyroidism",
+    "peripheral artery disease",
+    "atherosclerotic vascular disease",
+    "sample overlap",
+    "between-GWAS heterogeneity",
+    "genetic epidemiology"
+  ],
+  "communities": [],
+  "related_identifiers": [
+    {
+      "identifier": "10.1002/gepi.21998",
+      "relation": "cites",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1001/jama.2021.18236",
+      "relation": "is-supplemented-by",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Chen, Mingxiang",
+      "affiliation": "Shapingba Hospital, Chongqing University"
+    }
+  ]
+}

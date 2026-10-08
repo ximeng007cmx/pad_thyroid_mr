@@ -1,0 +1,13 @@
+# Python dependencies for the pad_thyroid_mr analysis pipeline
+# Developed and tested on Python 3.13.14 (Windows); no R required.
+#
+# Versions below are those used to produce the archived results.
+# Any recent version should work — the statistical routines are implemented
+# from scratch and depend only on numpy's basic linear algebra.
+
+numpy>=2.0,<3.0        # 2.5.3 used
+matplotlib>=3.8        # 3.11.2 used
+openpyxl>=3.1          # 3.1.5 used
+
+# Not required (deliberately avoided): pandas, scipy, R.
+# External (non-Python): PLINK 1.9 — https://www.cog-genomics.org/plink/

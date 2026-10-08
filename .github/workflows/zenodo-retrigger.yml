@@ -1,4 +1,5 @@
 name: zenodo-retrigger
+# run marker: auto (replayed at 2026-10-08T21:55:00Z)
 
 # run marker: 2  (2026-10-08T13:38Z — 用户已在 Zenodo 点过 "Sync now"，重新安装 webhook 后重放事件)
 

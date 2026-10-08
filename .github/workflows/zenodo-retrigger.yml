@@ -1,5 +1,7 @@
 name: zenodo-retrigger
 
+# run marker: 2  (2026-10-08T13:38Z — 用户已在 Zenodo 点过 "Sync now"，重新安装 webhook 后重放事件)
+
 # 一次性工具工作流：用于重放 GitHub Release 的 `published` 事件。
 #
 # 背景：Zenodo 的 GitHub 集成只归档「仓库开关启用之后」发生的 release。

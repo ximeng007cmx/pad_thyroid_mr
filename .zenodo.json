@@ -27,7 +27,7 @@
     },
     {
       "identifier": "10.1001/jama.2021.18236",
-      "relation": "is-supplemented-by",
+      "relation": "isSupplementedBy",
       "resource_type": "publication-article",
       "scheme": "doi"
     }

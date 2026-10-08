@@ -132,6 +132,14 @@ accessions and sources in `DATA_SOURCES.md` and are **not** redistributed here.
 See `CITATION.cff`. If you use this code, please cite the accompanying
 manuscript and the archived Zenodo release of this repository.
 
+**Archived release (Zenodo):**
+
+- Version DOI (v1.0.0): https://doi.org/10.5281/zenodo.23239485
+- GitHub repository: https://github.com/ximeng007cmx/pad_thyroid_mr
+
+The version DOI is stable and should be used in the manuscript's
+Data and code availability statement.
+
 ## 8. Contact
 
 Mingxiang Chen — Shapingba Hospital, Chongqing University.

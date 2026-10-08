@@ -5,6 +5,7 @@ type: software
 version: 1.0.0
 date-released: 2026-10-08
 license: MIT
+doi: "10.5281/zenodo.23239485"
 url: "https://github.com/ximeng007cmx/pad_thyroid_mr"
 repository-code: "https://github.com/ximeng007cmx/pad_thyroid_mr"
 abstract: >-

@@ -30,8 +30,8 @@ This repository contains the **complete analysis pipeline** (tool selection → 
 ├── requirements.txt           Python dependencies
 ├── relocate.py                rewrite the hard-coded project root (see §5)
 ├── LICENSE                    MIT
-├── CITATION.cff               citation metadata (fill in authors before release)
-├── .zenodo.json               Zenodo deposition metadata (fill in before release)
+├── CITATION.cff               citation metadata (Citation File Format 1.2.0)
+├── .zenodo.json               Zenodo deposition metadata for the archived release
 ├── scripts/                   Step 2: reference panel + LD clumping + instrument list
 ├── step3/{scripts,results}/   Step 3: harmonisation + primary MR analysis
 ├── step4/{scripts,results}/   Step 4: independent replication (MVP, FinnGen R13) + pan-vascular extension
@@ -120,12 +120,18 @@ python relocate.py            # rewrites ROOT to this checkout's absolute path
 
 ## 6. License
 
-MIT — see `LICENSE`. (Change before release if your institution requires a different licence.)
+MIT — see `LICENSE`.
+
+**Scope of the licence.** The MIT licence above covers the analysis code in this
+repository only. The GWAS summary statistics analysed by this code are
+third-party data released under their own terms; they are listed with their
+accessions and sources in `DATA_SOURCES.md` and are **not** redistributed here.
 
 ## 7. Citation
 
-See `CITATION.cff`. **Author names, affiliations and ORCID iDs are placeholders and must be completed before the release is published.**
+See `CITATION.cff`. If you use this code, please cite the accompanying
+manuscript and the archived Zenodo release of this repository.
 
 ## 8. Contact
 
-Corresponding author — *to be completed before release*.
+Mingxiang Chen — Shapingba Hospital, Chongqing University.

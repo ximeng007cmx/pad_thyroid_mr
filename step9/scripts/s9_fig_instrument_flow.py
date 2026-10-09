@@ -3,7 +3,7 @@
 数据全部来自 step9/results/instrument_selection_flow.tsv（实测复核）。
 图内文字用英文（入稿用）。
 """
-import os, sys, io
+import os, sys, io, textwrap
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 import matplotlib
 matplotlib.use("Agg")
@@ -57,7 +57,7 @@ ax.text(50, 97.4, "Instrument selection flow",
 
 LANE_X = [13.0, 41.5, 70.0]     # 三列主流程左边界
 LANE_W = 17.0
-EXC_X, EXC_W = 87.6, 12.2
+EXC_X, EXC_W = 87.4, 12.5
 
 top, bot = 90.0, 12.5
 n = len(STAGES)
@@ -87,9 +87,10 @@ for i, (label, counts, reason) in enumerate(STAGES):
             arrow(LANE_X[j] + LANE_W/2, y - BH/2 - 0.25, LANE_X[j] + LANE_W/2, y - step + BH/2 + 0.25)
         if reason:
             ym = y - step/2
-            # 原因作为红框内部标题行 + 三列计数
-            txt = reason + "\n\u2212 " + EXCL[i][1][0] + " / " + EXCL[i][1][1] + " / " + EXCL[i][1][2]
-            box(EXC_X, ym - 3.4, EXC_W, 6.8, txt, C_ACC_FILL, C_ACC, fs=7.2, tc=C_ACC)
+            # 原因自动换行（防止文字溢出框体、贴图右缘）+ 三列计数
+            reason_w = "\n".join(textwrap.wrap(reason, width=22))
+            txt = reason_w + "\n\u2212 " + EXCL[i][1][0] + " / " + EXCL[i][1][1] + " / " + EXCL[i][1][2]
+            box(EXC_X, ym - 3.9, EXC_W, 7.8, txt, C_ACC_FILL, C_ACC, fs=6.5, tc=C_ACC)
             # 虚线连到第一列
             ax.add_patch(FancyArrowPatch((LANE_X[0] + LANE_W, ym), (EXC_X - 0.3, ym),
                                          arrowstyle="-", linestyle=(0, (3, 2)),

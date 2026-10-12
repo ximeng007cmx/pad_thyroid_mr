@@ -1,10 +1,10 @@
-# Analysis code — Thyroid function and atherosclerotic vascular disease: Mendelian randomization estimates depend on the outcome genome-wide association study used
+# Analysis code — Thyroid function and atherosclerotic vascular disease: two-sample Mendelian randomization estimates depend on the outcome genome-wide association study used
 
 Version **v1.1.0** ｜ Date **2026-10-09**
 
 Two-sample Mendelian randomization (MR) analysis code accompanying the manuscript:
 
-> Thyroid function and atherosclerotic vascular disease: Mendelian randomization estimates depend substantially on the outcome genome-wide association study used — a paired two-sample Mendelian randomization study
+> Thyroid function and atherosclerotic vascular disease: two-sample Mendelian randomization estimates depend on the outcome genome-wide association study used
 
 This repository contains the **complete analysis pipeline** (tool selection → harmonization → MR estimation → replication → MVMR → reverse MR → colocalization → power analysis → sample-overlap bias framework application) together with the **derived result tables** cited in the manuscript.
 

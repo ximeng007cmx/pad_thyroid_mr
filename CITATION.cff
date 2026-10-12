@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite both the software and the associated manuscript."
-title: "Analysis code for: Thyroid function and atherosclerotic vascular disease — Mendelian randomization estimates depend substantially on the outcome genome-wide association study used"
+title: "Analysis code for: Thyroid function and atherosclerotic vascular disease — two-sample Mendelian randomization estimates depend on the outcome genome-wide association study used"
 type: software
 version: 1.1.0
 date-released: 2026-10-09
@@ -34,7 +34,7 @@ contact:
 
 preferred-citation:
   type: article
-  title: "Thyroid function and atherosclerotic vascular disease: Mendelian randomization estimates depend substantially on the outcome genome-wide association study used — a paired two-sample Mendelian randomization study"
+  title: "Thyroid function and atherosclerotic vascular disease: two-sample Mendelian randomization estimates depend on the outcome genome-wide association study used"
   year: 2026
   journal: "BMC Cardiovascular Disorders"
   authors:

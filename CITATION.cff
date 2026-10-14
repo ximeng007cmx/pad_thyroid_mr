@@ -24,13 +24,23 @@ keywords:
   - between-GWAS heterogeneity
   - genetic epidemiology
 authors:
+  - family-names: "Yang"
+    given-names: "Yuanjing"
+    affiliation: "Department of Science and Education, Yongchuan District People's Hospital of Chongqing"
+  - family-names: "Hu"
+    given-names: "Qi"
+    affiliation: "Department of Endocrinology, Yongchuan District People's Hospital of Chongqing"
+  - family-names: "Luo"
+    given-names: "Jianqiong"
+    affiliation: "Health Management Center, Yongchuan District People's Hospital of Chongqing"
   - family-names: "Chen"
     given-names: "Mingxiang"
-    affiliation: "Shapingba Hospital, Chongqing University"
+    affiliation: "Department of Hepatobiliary, Vascular and Hernia Surgery, Shapingba Hospital Affiliated to Chongqing University"
+    orcid: "https://orcid.org/0000-0002-0997-0957"
 contact:
   - family-names: "Chen"
     given-names: "Mingxiang"
-    affiliation: "Shapingba Hospital, Chongqing University"
+    affiliation: "Department of Hepatobiliary, Vascular and Hernia Surgery, Shapingba Hospital Affiliated to Chongqing University"
 
 preferred-citation:
   type: article
@@ -38,6 +48,12 @@ preferred-citation:
   year: 2026
   journal: "BMC Cardiovascular Disorders"
   authors:
+    - family-names: "Yang"
+      given-names: "Yuanjing"
+    - family-names: "Hu"
+      given-names: "Qi"
+    - family-names: "Luo"
+      given-names: "Jianqiong"
     - family-names: "Chen"
       given-names: "Mingxiang"
   # status: submitted

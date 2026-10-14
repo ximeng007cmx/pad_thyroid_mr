@@ -34,8 +34,21 @@
   ],
   "creators": [
     {
+      "name": "Yang, Yuanjing",
+      "affiliation": "Department of Science and Education, Yongchuan District People's Hospital of Chongqing"
+    },
+    {
+      "name": "Hu, Qi",
+      "affiliation": "Department of Endocrinology, Yongchuan District People's Hospital of Chongqing"
+    },
+    {
+      "name": "Luo, Jianqiong",
+      "affiliation": "Health Management Center, Yongchuan District People's Hospital of Chongqing"
+    },
+    {
       "name": "Chen, Mingxiang",
-      "affiliation": "Shapingba Hospital, Chongqing University"
+      "affiliation": "Department of Hepatobiliary, Vascular and Hernia Surgery, Shapingba Hospital Affiliated to Chongqing University",
+      "orcid": "0000-0002-0997-0957"
     }
   ]
 }
